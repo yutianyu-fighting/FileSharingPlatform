@@ -1,0 +1,67 @@
+[2020-06-09 10:42:06]--[src_cgi/sharefiles_cgi.c:42]--mysql:[user=root,pwd=123456,database=yundisk][2020-06-09 10:42:06]--[src_cgi/sharefiles_cgi.c:47]--redis:[ip=127.0.0.1,port=6379]
+[2020-06-09 21:56:11]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-09 21:56:11]--[src_cgi/sharefiles_cgi.c:85]--line = 2
+[2020-06-09 21:56:11]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-06-09 21:56:11]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 2,
+    "start": 0
+}
+
+[2020-06-09 21:56:11]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 2
+[2020-06-09 21:56:11]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 2 在操作
+[2020-06-09 21:56:11]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"tianyu",
+			"md5":	"7526fcead4ef24036b5845f9b9e9ef9d",
+			"time":	"2020-06-08 14:42:30",
+			"filename":	"ui_buttongroup.h",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.142.239:80/group1/M00/00/00/wKiO717d3dKATx9bAAAlJ47bpbQ77602.h",
+			"size":	9511,
+			"type":	"h"
+		}, {
+			"user":	"yutianyu",
+			"md5":	"a6159d77d7707c292b7a1c8b9fc7fe55",
+			"time":	"2020-06-08 14:46:01",
+			"filename":	"title_close.png",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.142.228:80/group1/M00/00/00/wKiO5F7CVGiAD3DkAAAO1syDkgc013.png",
+			"size":	3798,
+			"type":	"png"
+		}]
+}
+[2020-06-09 22:22:01]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-09 22:22:01]--[src_cgi/sharefiles_cgi.c:85]--line = 2
+[2020-06-09 22:22:01]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-06-09 22:22:01]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 2,
+    "start": 0
+}
+
+[2020-06-09 22:22:01]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 2
+[2020-06-09 22:22:01]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 2 在操作
+[2020-06-09 22:22:01]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"tianyu",
+			"md5":	"7526fcead4ef24036b5845f9b9e9ef9d",
+			"time":	"2020-06-08 14:42:30",
+			"filename":	"ui_buttongroup.h",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.142.239:80/group1/M00/00/00/wKiO717d3dKATx9bAAAlJ47bpbQ77602.h",
+			"size":	9511,
+			"type":	"h"
+		}, {
+			"user":	"yutianyu",
+			"md5":	"a6159d77d7707c292b7a1c8b9fc7fe55",
+			"time":	"2020-06-08 14:46:01",
+			"filename":	"title_close.png",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.142.228:80/group1/M00/00/00/wKiO5F7CVGiAD3DkAAAO1syDkgc013.png",
+			"size":	3798,
+			"type":	"png"
+		}]
+}

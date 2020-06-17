@@ -1,0 +1,10 @@
+[2020-05-20 19:44:58]--[src_cgi/reg_cgi.c:236]--buf = {
+    "email": "112@qq.com",
+    "firstPwd": "fb3336fca8851437f980e83045e75749",
+    "nickName": "ddd",
+    "phone": "15554992356",
+    "userName": "wangxiaoer"
+}
+
+[2020-05-20 19:44:58]--[src_cgi/reg_cgi.c:128]--mysql_user = root, mysql_pwd = 123456, mysql_db = yundisk
+[2020-05-20 19:44:58]--[src_cgi/reg_cgi.c:141]--user = wangxiaoer, nick_name = ddd, pwd = fb3336fca8851437f980e83045e75749, tel = 15554992356, email = 112@qq.com

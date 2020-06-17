@@ -1,0 +1,28 @@
+[2020-05-21 20:13:05]--[common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2020-05-21 20:13:05]--[common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2020-05-21 20:13:05]--[common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2020-05-21 20:13:05]--[common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2020-05-21 20:13:05]--[common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2020-05-21 20:13:05]--[common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2020-05-21 20:13:14]--[common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2020-05-21 20:13:14]--[common/redis_op.c:329]--[+][GMS_REDIS]=REDIS_REPLY_string=[string] use reply->str to get data, reply->len get data len
+[2020-05-21 20:13:14]--[common/redis_op.c:329]--[+][GMS_REDIS]=REDIS_REPLY_string=[string] use reply->str to get data, reply->len get data len
+[2020-05-21 20:13:14]--[common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2020-05-21 20:13:29]--[common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2020-05-21 20:13:29]--[common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2020-05-21 20:13:29]--[common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2020-05-21 20:13:29]--[common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2020-05-21 20:13:29]--[common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2020-05-21 20:13:29]--[common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2020-05-21 20:13:50]--[common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2020-05-21 20:13:50]--[common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2020-05-21 20:13:50]--[common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2020-05-21 20:13:50]--[common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2020-05-21 20:14:28]--[common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2020-05-21 20:14:28]--[common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2020-05-21 20:14:28]--[common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2020-05-21 20:14:28]--[common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2020-05-21 21:00:31]--[common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2020-05-21 21:00:31]--[common/redis_op.c:329]--[+][GMS_REDIS]=REDIS_REPLY_string=[string] use reply->str to get data, reply->len get data len
+[2020-05-21 21:00:31]--[common/redis_op.c:329]--[+][GMS_REDIS]=REDIS_REPLY_string=[string] use reply->str to get data, reply->len get data len
+[2020-05-21 21:00:31]--[common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!

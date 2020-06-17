@@ -1,0 +1,24 @@
+[2020-06-09 16:19:25]--[common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2020-06-09 16:19:25]--[common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2020-06-09 16:19:25]--[common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2020-06-09 16:19:25]--[common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2020-06-09 16:19:25]--[common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2020-06-09 16:19:25]--[common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2020-06-09 21:00:16]--[common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2020-06-09 21:00:16]--[common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2020-06-09 21:00:16]--[common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2020-06-09 21:00:16]--[common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2020-06-09 21:00:16]--[common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2020-06-09 21:00:16]--[common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2020-06-09 21:00:24]--[common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2020-06-09 21:00:24]--[common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2020-06-09 21:00:24]--[common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2020-06-09 21:00:24]--[common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2020-06-09 21:58:06]--[common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2020-06-09 21:58:06]--[common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2020-06-09 21:58:06]--[common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2020-06-09 21:58:06]--[common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2020-06-09 22:22:05]--[common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2020-06-09 22:22:05]--[common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2020-06-09 22:22:05]--[common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2020-06-09 22:22:05]--[common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!

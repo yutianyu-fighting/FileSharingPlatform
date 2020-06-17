@@ -1,0 +1,204 @@
+[2020-06-06 10:52:07]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-06-06 10:52:07]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "db9c91575d05c5bfbf439e0ac3ede48c",
+    "user": "tianyu"
+}
+
+[2020-06-06 10:52:07]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="tianyu" 操作失败
+[2020-06-06 10:52:07]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2020-06-06 10:55:21]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-06-06 10:55:21]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "db9c91575d05c5bfbf439e0ac3ede48c",
+    "user": "tianyu"
+}
+
+[2020-06-06 10:55:21]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="tianyu" 操作失败
+[2020-06-06 10:55:21]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2020-06-06 10:55:27]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-06-06 10:55:27]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "77f3f40a401bc437950082e95b9dacdc",
+    "user": "tianyu"
+}
+
+[2020-06-06 10:55:27]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="tianyu" 操作失败
+[2020-06-06 10:55:27]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2020-06-06 10:56:10]--[src_cgi/myfiles_cgi.c:40]--mysql:[user=root,pwd=123456,database=yundisk][2020-06-06 10:56:30]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-06-06 10:56:30]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "c6126c6303d062c6f6eab19ae60d2efd",
+    "user": "tianyu"
+}
+
+[2020-06-06 10:56:30]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="tianyu" 操作失败
+[2020-06-06 10:56:30]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2020-06-06 10:56:38]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-06-06 10:56:38]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "c6126c6303d062c6f6eab19ae60d2efd",
+    "user": "tianyu"
+}
+
+[2020-06-06 10:56:38]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="tianyu" 操作失败
+[2020-06-06 10:56:38]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2020-06-06 10:57:14]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-06-06 10:57:14]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "c6126c6303d062c6f6eab19ae60d2efd",
+    "user": "tianyu"
+}
+
+[2020-06-06 10:57:14]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="tianyu" 操作失败
+[2020-06-06 10:57:14]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2020-06-06 10:57:30]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-06-06 10:57:30]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "c6126c6303d062c6f6eab19ae60d2efd",
+    "user": "tianyu"
+}
+
+[2020-06-06 10:57:30]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="tianyu" 操作失败
+[2020-06-06 10:57:30]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2020-06-06 10:57:32]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-06-06 10:57:32]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "70bf8ddc9f764287bcbb1d5d8dd7c411",
+    "user": "tianyu"
+}
+
+[2020-06-06 10:57:32]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="tianyu" 操作失败
+[2020-06-06 10:57:32]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2020-06-06 10:58:53]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-06-06 10:58:53]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "70bf8ddc9f764287bcbb1d5d8dd7c411",
+    "user": "tianyu"
+}
+
+[2020-06-06 10:58:53]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="tianyu" 操作失败
+[2020-06-06 10:58:53]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2020-06-06 10:59:06]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-06-06 10:59:06]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "b59d81ee3006b7d4dc78f536e240ae34",
+    "user": "tianyu"
+}
+
+[2020-06-06 10:59:06]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="tianyu" 操作失败
+[2020-06-06 10:59:06]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2020-06-06 10:59:08]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-06-06 10:59:08]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "b59d81ee3006b7d4dc78f536e240ae34",
+    "user": "tianyu"
+}
+
+[2020-06-06 10:59:08]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="tianyu" 操作失败
+[2020-06-06 10:59:08]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2020-06-06 10:59:13]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-06-06 10:59:13]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "b59d81ee3006b7d4dc78f536e240ae34",
+    "user": "tianyu"
+}
+
+[2020-06-06 10:59:13]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2020-06-06 10:59:13]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2020-06-06 10:59:13]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "b59d81ee3006b7d4dc78f536e240ae34",
+    "user": "tianyu"
+}
+
+[2020-06-06 10:59:13]--[src_cgi/myfiles_cgi.c:548]--user = tianyu, token = b59d81ee3006b7d4dc78f536e240ae34, start = 0, count = 1
+[2020-06-06 10:59:13]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'tianyu' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2020-06-06 10:59:13]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"tianyu",
+			"md5":	"7526fcead4ef24036b5845f9b9e9ef9d",
+			"time":	"2020-06-06 10:59:12",
+			"filename":	"ui_buttongroup.h",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.142.239:80/group1/M00/00/00/wKiO717bBoCAergCAAAlJ47bpbQ12185.h",
+			"size":	9511,
+			"type":	"h"
+		}]
+}
+[2020-06-06 10:59:19]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-06-06 10:59:19]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "22131d71dfa9c0c8bd74aedea54ed9c2",
+    "user": "tianyu"
+}
+
+[2020-06-06 10:59:19]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2020-06-06 10:59:19]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2020-06-06 10:59:19]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "22131d71dfa9c0c8bd74aedea54ed9c2",
+    "user": "tianyu"
+}
+
+[2020-06-06 10:59:19]--[src_cgi/myfiles_cgi.c:548]--user = tianyu, token = 22131d71dfa9c0c8bd74aedea54ed9c2, start = 0, count = 1
+[2020-06-06 10:59:19]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'tianyu' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2020-06-06 10:59:19]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"tianyu",
+			"md5":	"7526fcead4ef24036b5845f9b9e9ef9d",
+			"time":	"2020-06-06 10:59:12",
+			"filename":	"ui_buttongroup.h",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.142.239:80/group1/M00/00/00/wKiO717bBoCAergCAAAlJ47bpbQ12185.h",
+			"size":	9511,
+			"type":	"h"
+		}]
+}
+[2020-06-06 13:18:33]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-06-06 13:18:33]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "baee6c5f6c0bd2696781055ae8f247d4",
+    "user": "tianyu"
+}
+
+[2020-06-06 13:18:33]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="tianyu" 操作失败
+[2020-06-06 13:18:33]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2020-06-06 13:45:16]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-06-06 13:45:16]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "ee3cdb55fd1bc356f9541eb1a0a21f94",
+    "user": "tianyu"
+}
+
+[2020-06-06 13:45:16]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="tianyu" 操作失败
+[2020-06-06 13:45:16]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2020-06-06 13:45:22]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-06-06 13:45:22]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "ee3cdb55fd1bc356f9541eb1a0a21f94",
+    "user": "tianyu"
+}
+
+[2020-06-06 13:45:22]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="tianyu" 操作失败
+[2020-06-06 13:45:22]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2020-06-06 16:24:33]--[src_cgi/myfiles_cgi.c:40]--mysql:[user=root,pwd=123456,database=yundisk][2020-06-06 16:24:57]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-06-06 16:24:57]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "4100a75b54225efe764f5f7bbbc947bc",
+    "user": "tianyu"
+}
+
+[2020-06-06 16:24:58]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="tianyu" 操作失败
+[2020-06-06 16:24:58]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2020-06-06 16:25:03]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-06-06 16:25:03]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "4100a75b54225efe764f5f7bbbc947bc",
+    "user": "tianyu"
+}
+
+[2020-06-06 16:25:03]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="tianyu" 操作失败
+[2020-06-06 16:25:03]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2020-06-06 16:25:14]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-06-06 16:25:14]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "4100a75b54225efe764f5f7bbbc947bc",
+    "user": "tianyu"
+}
+
+[2020-06-06 16:25:14]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="tianyu" 操作失败
+[2020-06-06 16:25:14]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2020-06-06 16:25:21]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-06-06 16:25:21]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "4100a75b54225efe764f5f7bbbc947bc",
+    "user": "tianyu"
+}
+
+[2020-06-06 16:25:21]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="tianyu" 操作失败
+[2020-06-06 16:25:21]--[src_cgi/myfiles_cgi.c:176]--line = 0

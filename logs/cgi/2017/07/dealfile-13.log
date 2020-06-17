@@ -1,0 +1,110 @@
+[2017-07-13 17:35:52]--[src_cgi/dealfile_cgi.c:42]--mysql:[user=root,pwd=root,database=cloud_disk][2017-07-13 17:35:52]--[src_cgi/dealfile_cgi.c:47]--redis:[ip=127.0.0.1,port=6379]
+[2017-07-13 17:41:00]--[src_cgi/dealfile_cgi.c:42]--mysql:[user=root,pwd=root,database=cloud_disk][2017-07-13 17:41:00]--[src_cgi/dealfile_cgi.c:47]--redis:[ip=127.0.0.1,port=6379]
+[2017-07-13 02:45:17]--[src_cgi/dealfile_cgi.c:695]--cmd = pv
+[2017-07-13 02:45:17]--[src_cgi/dealfile_cgi.c:727]--buf = {
+    "filename": "Penguins.jpg",
+    "md5": "9d377b10ce778c4938b3c7e2c63a229a",
+    "token": "82424b310f80cea0f1e1670e6ecac9a8",
+    "user": "kevin"
+}
+
+[2017-07-13 02:45:17]--[src_cgi/dealfile_cgi.c:730]--user = kevin, token = 82424b310f80cea0f1e1670e6ecac9a8, md5 = 9d377b10ce778c4938b3c7e2c63a229a, filename = Penguins.jpg
+[2017-07-13 02:49:35]--[src_cgi/dealfile_cgi.c:695]--cmd = pv
+[2017-07-13 02:49:35]--[src_cgi/dealfile_cgi.c:727]--buf = {
+    "filename": "Penguins.jpg",
+    "md5": "9d377b10ce778c4938b3c7e2c63a229a",
+    "token": "ab956060af85ced0f48cfa3502b172e9",
+    "user": "kevin"
+}
+
+[2017-07-13 02:49:35]--[src_cgi/dealfile_cgi.c:730]--user = kevin, token = ab956060af85ced0f48cfa3502b172e9, md5 = 9d377b10ce778c4938b3c7e2c63a229a, filename = Penguins.jpg
+[2017-07-13 08:57:54]--[src_cgi/dealfile_cgi.c:695]--cmd = share
+[2017-07-13 08:57:54]--[src_cgi/dealfile_cgi.c:727]--buf = {
+    "filename": "Penguins.jpg",
+    "md5": "9d377b10ce778c4938b3c7e2c63a229a",
+    "token": "8a5365806f8a573dc60c91dca04d7ee6",
+    "user": "kevin"
+}
+
+[2017-07-13 08:57:54]--[src_cgi/dealfile_cgi.c:730]--user = kevin, token = 8a5365806f8a573dc60c91dca04d7ee6, md5 = 9d377b10ce778c4938b3c7e2c63a229a, filename = Penguins.jpg
+[2017-07-13 08:58:08]--[src_cgi/dealfile_cgi.c:695]--cmd = share
+[2017-07-13 08:58:08]--[src_cgi/dealfile_cgi.c:727]--buf = {
+    "filename": "a.png",
+    "md5": "e5c452a06e06da6edbdd9c0e27f9fe8a",
+    "token": "8a5365806f8a573dc60c91dca04d7ee6",
+    "user": "kevin"
+}
+
+[2017-07-13 08:58:08]--[src_cgi/dealfile_cgi.c:730]--user = kevin, token = 8a5365806f8a573dc60c91dca04d7ee6, md5 = e5c452a06e06da6edbdd9c0e27f9fe8a, filename = a.png
+[2017-07-13 10:28:59]--[src_cgi/dealfile_cgi.c:695]--cmd = pv
+[2017-07-13 10:28:59]--[src_cgi/dealfile_cgi.c:727]--buf = {
+    "filename": "a.png",
+    "md5": "e5c452a06e06da6edbdd9c0e27f9fe8a",
+    "token": "fa11abb85ee708317d6638fa3720a7be",
+    "user": "kevin"
+}
+
+[2017-07-13 10:28:59]--[src_cgi/dealfile_cgi.c:730]--user = kevin, token = fa11abb85ee708317d6638fa3720a7be, md5 = e5c452a06e06da6edbdd9c0e27f9fe8a, filename = a.png
+[2017-07-13 10:29:22]--[src_cgi/dealfile_cgi.c:695]--cmd = pv
+[2017-07-13 10:29:22]--[src_cgi/dealfile_cgi.c:727]--buf = {
+    "filename": "Penguins.jpg",
+    "md5": "9d377b10ce778c4938b3c7e2c63a229a",
+    "token": "fa11abb85ee708317d6638fa3720a7be",
+    "user": "kevin"
+}
+
+[2017-07-13 10:29:22]--[src_cgi/dealfile_cgi.c:730]--user = kevin, token = fa11abb85ee708317d6638fa3720a7be, md5 = 9d377b10ce778c4938b3c7e2c63a229a, filename = Penguins.jpg
+[2017-07-13 10:55:58]--[src_cgi/dealfile_cgi.c:695]--cmd = share
+[2017-07-13 10:55:58]--[src_cgi/dealfile_cgi.c:727]--buf = {
+    "filename": "Desert.jpg",
+    "md5": "ba45c8f60456a672e003a875e469d0eb",
+    "token": "b86484d98f8aeece159bf60e938d4363",
+    "user": "kevin"
+}
+
+[2017-07-13 10:55:58]--[src_cgi/dealfile_cgi.c:730]--user = kevin, token = b86484d98f8aeece159bf60e938d4363, md5 = ba45c8f60456a672e003a875e469d0eb, filename = Desert.jpg
+[2017-07-13 19:16:27]--[src_cgi/dealfile_cgi.c:695]--cmd = pv
+[2017-07-13 19:16:27]--[src_cgi/dealfile_cgi.c:727]--buf = {
+    "filename": "Jellyfish.jpg",
+    "md5": "5a44c7ba5bbe4ec867233d67e4806848",
+    "token": "e784d76c741a07bb76bbe4ba6433f2ad",
+    "user": "kevin"
+}
+
+[2017-07-13 19:16:27]--[src_cgi/dealfile_cgi.c:730]--user = kevin, token = e784d76c741a07bb76bbe4ba6433f2ad, md5 = 5a44c7ba5bbe4ec867233d67e4806848, filename = Jellyfish.jpg
+[2017-07-13 20:01:55]--[src_cgi/dealfile_cgi.c:695]--cmd = pv
+[2017-07-13 20:01:55]--[src_cgi/dealfile_cgi.c:727]--buf = {
+    "filename": "Penguins.jpg",
+    "md5": "9d377b10ce778c4938b3c7e2c63a229a",
+    "token": "47a565b7f2f17c164b0760ef7a084412",
+    "user": "kevin"
+}
+
+[2017-07-13 20:01:55]--[src_cgi/dealfile_cgi.c:730]--user = kevin, token = 47a565b7f2f17c164b0760ef7a084412, md5 = 9d377b10ce778c4938b3c7e2c63a229a, filename = Penguins.jpg
+[2017-07-13 20:03:02]--[src_cgi/dealfile_cgi.c:695]--cmd = pv
+[2017-07-13 20:03:02]--[src_cgi/dealfile_cgi.c:727]--buf = {
+    "filename": "Jellyfish.jpg",
+    "md5": "5a44c7ba5bbe4ec867233d67e4806848",
+    "token": "b23e5b004d5a1435a0b0bf6851483e0c",
+    "user": "kevin"
+}
+
+[2017-07-13 20:03:02]--[src_cgi/dealfile_cgi.c:730]--user = kevin, token = b23e5b004d5a1435a0b0bf6851483e0c, md5 = 5a44c7ba5bbe4ec867233d67e4806848, filename = Jellyfish.jpg
+[2017-07-13 20:03:51]--[src_cgi/dealfile_cgi.c:695]--cmd = pv
+[2017-07-13 20:03:51]--[src_cgi/dealfile_cgi.c:727]--buf = {
+    "filename": "Chrysanthemum.jpg",
+    "md5": "076e3caed758a1c18c91a0e9cae3368f",
+    "token": "3e150c2371da8ec853656391fd2d6188",
+    "user": "kevin"
+}
+
+[2017-07-13 20:03:51]--[src_cgi/dealfile_cgi.c:730]--user = kevin, token = 3e150c2371da8ec853656391fd2d6188, md5 = 076e3caed758a1c18c91a0e9cae3368f, filename = Chrysanthemum.jpg
+[2017-07-13 20:32:38]--[src_cgi/dealfile_cgi.c:695]--cmd = pv
+[2017-07-13 20:32:38]--[src_cgi/dealfile_cgi.c:727]--buf = {
+    "filename": "Desert.jpg",
+    "md5": "ba45c8f60456a672e003a875e469d0eb",
+    "token": "402447bff88afd7bba5f92851cceb7b0",
+    "user": "kevin"
+}
+
+[2017-07-13 20:32:38]--[src_cgi/dealfile_cgi.c:730]--user = kevin, token = 402447bff88afd7bba5f92851cceb7b0, md5 = ba45c8f60456a672e003a875e469d0eb, filename = Desert.jpg

@@ -1,0 +1,20 @@
+[2020-06-08 14:36:47]--[src_cgi/upload_cgi.c:42]--mysql:[user=root,pwd=123456,database=yundisk][2020-06-08 14:37:50]--[src_cgi/upload_cgi.c:616]--tianyu成功上传[1c593113487f6ef42f0f78624a3199d.jpg, 大小：240762, md5码：fe66efd7c462faabcd1d298bc0f4bb46]到本地
+[2020-06-08 14:37:50]--[src_cgi/upload_cgi.c:351]--get [group1/M00/00/00/wKiO717d3L6AW9dWAAOseiEQpOA378.jpg] succ!
+[2020-06-08 14:37:50]--[src_cgi/upload_cgi.c:456]--file url is: http://192.168.142.239:80/group1/M00/00/00/wKiO717d3L6AW9dWAAOseiEQpOA378.jpg
+[2020-06-08 14:37:50]--[src_cgi/upload_cgi.c:510]--insert into file_info (md5, file_id, url, size, type, count) values ('fe66efd7c462faabcd1d298bc0f4bb46', 'group1/M00/00/00/wKiO717d3L6AW9dWAAOseiEQpOA378.jpg', 'http://192.168.142.239:80/group1/M00/00/00/wKiO717d3L6AW9dWAAOseiEQpOA378.jpg', '240762', 'jpg', 1) 文件信息插入成功
+[2020-06-08 14:42:26]--[src_cgi/upload_cgi.c:616]--tianyu成功上传[ui_buttongroup.h, 大小：9511, md5码：7526fcead4ef24036b5845f9b9e9ef9d]到本地
+[2020-06-08 14:42:26]--[src_cgi/upload_cgi.c:351]--get [group1/M00/00/00/wKiO717d3dKATx9bAAAlJ47bpbQ77602.h] succ!
+[2020-06-08 14:42:26]--[src_cgi/upload_cgi.c:456]--file url is: http://192.168.142.239:80/group1/M00/00/00/wKiO717d3dKATx9bAAAlJ47bpbQ77602.h
+[2020-06-08 14:42:26]--[src_cgi/upload_cgi.c:510]--insert into file_info (md5, file_id, url, size, type, count) values ('7526fcead4ef24036b5845f9b9e9ef9d', 'group1/M00/00/00/wKiO717d3dKATx9bAAAlJ47bpbQ77602.h', 'http://192.168.142.239:80/group1/M00/00/00/wKiO717d3dKATx9bAAAlJ47bpbQ77602.h', '9511', 'h', 1) 文件信息插入成功
+[2020-06-08 14:45:53]--[src_cgi/upload_cgi.c:616]--yutianyu成功上传[1c593113487f6ef42f0f78624a3199d.jpg, 大小：240762, md5码：fe66efd7c462faabcd1d298bc0f4bb46]到本地
+[2020-06-08 14:45:53]--[src_cgi/upload_cgi.c:351]--get [group1/M00/00/00/wKiO717d3qGAJKvNAAOseiEQpOA705.jpg] succ!
+[2020-06-08 14:45:53]--[src_cgi/upload_cgi.c:456]--file url is: http://192.168.142.239:80/group1/M00/00/00/wKiO717d3qGAJKvNAAOseiEQpOA705.jpg
+[2020-06-08 14:45:53]--[src_cgi/upload_cgi.c:510]--insert into file_info (md5, file_id, url, size, type, count) values ('fe66efd7c462faabcd1d298bc0f4bb46', 'group1/M00/00/00/wKiO717d3qGAJKvNAAOseiEQpOA705.jpg', 'http://192.168.142.239:80/group1/M00/00/00/wKiO717d3qGAJKvNAAOseiEQpOA705.jpg', '240762', 'jpg', 1) 文件信息插入成功
+[2020-06-08 14:45:53]--[src_cgi/upload_cgi.c:616]--yutianyu成功上传[62abff01106081a56ea7b2e3a566a39.jpg, 大小：179063, md5码：ca14c1be9303ba22f4d564902a7565a2]到本地
+[2020-06-08 14:45:53]--[src_cgi/upload_cgi.c:351]--get [group1/M00/00/00/wKiO717d3qGAMlAsAAK7d8nRUbg973.jpg] succ!
+[2020-06-08 14:45:53]--[src_cgi/upload_cgi.c:456]--file url is: http://192.168.142.239:80/group1/M00/00/00/wKiO717d3qGAMlAsAAK7d8nRUbg973.jpg
+[2020-06-08 14:45:53]--[src_cgi/upload_cgi.c:510]--insert into file_info (md5, file_id, url, size, type, count) values ('ca14c1be9303ba22f4d564902a7565a2', 'group1/M00/00/00/wKiO717d3qGAMlAsAAK7d8nRUbg973.jpg', 'http://192.168.142.239:80/group1/M00/00/00/wKiO717d3qGAMlAsAAK7d8nRUbg973.jpg', '179063', 'jpg', 1) 文件信息插入成功
+[2020-06-08 16:13:32]--[src_cgi/upload_cgi.c:42]--mysql:[user=root,pwd=123456,database=yundisk][2020-06-08 16:18:23]--[src_cgi/upload_cgi.c:616]--tianyu成功上传[C++基础.docx, 大小：4264984, md5码：4524c781fc78ff3c20a1f3fcfeb24189]到本地
+[2020-06-08 16:18:23]--[src_cgi/upload_cgi.c:351]--get [group1/M00/00/00/wKiO717d9E-AKo8TAEEUGJHtxgM50.docx] succ!
+[2020-06-08 16:18:23]--[src_cgi/upload_cgi.c:456]--file url is: http://192.168.142.239:80/group1/M00/00/00/wKiO717d9E-AKo8TAEEUGJHtxgM50.docx
+[2020-06-08 16:18:23]--[src_cgi/upload_cgi.c:510]--insert into file_info (md5, file_id, url, size, type, count) values ('4524c781fc78ff3c20a1f3fcfeb24189', 'group1/M00/00/00/wKiO717d9E-AKo8TAEEUGJHtxgM50.docx', 'http://192.168.142.239:80/group1/M00/00/00/wKiO717d9E-AKo8TAEEUGJHtxgM50.docx', '4264984', 'docx', 1) 文件信息插入成功

@@ -1,0 +1,4 @@
+[2017-07-11 17:01:10]--[src_cgi/upload_cgi.c:616]--222成功上传[系统架构图.pdf, 大小：214367, md5码：e7793fd935f9e8f04c5c9e7a59660ec0]到本地
+[2017-07-11 17:01:10]--[src_cgi/upload_cgi.c:351]--get [group1/M00/00/00/wKgBFlllZsaALjFfAANFX_2DzMI833.pdf] succ!
+[2017-07-11 17:01:10]--[src_cgi/upload_cgi.c:456]--file url is: http://192.168.1.22:80/group1/M00/00/00/wKgBFlllZsaALjFfAANFX_2DzMI833.pdf
+[2017-07-11 17:01:10]--[src_cgi/upload_cgi.c:510]--insert into file_info (md5, file_id, url, size, type, count) values ('e7793fd935f9e8f04c5c9e7a59660ec0', 'group1/M00/00/00/wKgBFlllZsaALjFfAANFX_2DzMI833.pdf', 'http://192.168.1.22:80/group1/M00/00/00/wKgBFlllZsaALjFfAANFX_2DzMI833.pdf', '214367', 'pdf', 1) 文件信息插入成功

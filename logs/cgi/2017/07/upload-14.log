@@ -1,0 +1,5 @@
+[2017-07-14 06:41:52]--[src_cgi/upload_cgi.c:616]--kevin成功上传[Koala.jpg, 大小：780831, md5码：2b04df3ecc1d94afddff082d139c6f15]到本地
+[2017-07-14 06:41:52]--[src_cgi/upload_cgi.c:351]--get [group1/M00/00/00/wKgBFlloyiCAG7KuAAvqH_kipG8977.jpg] succ!
+[2017-07-14 06:41:52]--[src_cgi/upload_cgi.c:456]--file url is: http://192.168.1.22:80/group1/M00/00/00/wKgBFlloyiCAG7KuAAvqH_kipG8977.jpg
+[2017-07-14 06:41:52]--[src_cgi/upload_cgi.c:510]--insert into file_info (md5, file_id, url, size, type, count) values ('2b04df3ecc1d94afddff082d139c6f15', 'group1/M00/00/00/wKgBFlloyiCAG7KuAAvqH_kipG8977.jpg', 'http://192.168.1.22:80/group1/M00/00/00/wKgBFlloyiCAG7KuAAvqH_kipG8977.jpg', '780831', 'jpg', 1) 文件信息插入成功
+[2017-07-14 23:13:32]--[src_cgi/upload_cgi.c:42]--mysql:[user=root,pwd=root,database=cloud_disk][2017-07-14 23:14:40]--[src_cgi/upload_cgi.c:42]--mysql:[user=root,pwd=root,database=cloud_disk]

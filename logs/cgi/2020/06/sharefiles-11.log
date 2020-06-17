@@ -1,0 +1,1008 @@
+[2020-06-11 15:22:35]--[src_cgi/sharefiles_cgi.c:42]--mysql:[user=root,pwd=123456,database=yundisk][2020-06-11 15:22:35]--[src_cgi/sharefiles_cgi.c:47]--redis:[ip=127.0.0.1,port=6379]
+[2020-06-11 15:35:10]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-11 15:35:10]--[src_cgi/sharefiles_cgi.c:85]--line = 2
+[2020-06-11 15:35:11]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-06-11 15:35:11]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 2,
+    "start": 0
+}
+
+[2020-06-11 15:35:11]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 2
+[2020-06-11 15:35:11]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 2, redis_num = 3
+[2020-06-11 15:35:11]--[src_cgi/sharefiles_cgi.c:413]--select md5, filename, pv from share_file_list order by pv desc 在操作
+[2020-06-11 15:35:11]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"title_close.png",
+			"pv":	0
+		}, {
+			"filename":	"ui_buttongroup.h",
+			"pv":	0
+		}]
+}
+[2020-06-11 15:35:12]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-11 15:35:12]--[src_cgi/sharefiles_cgi.c:85]--line = 2
+[2020-06-11 15:35:12]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-06-11 15:35:12]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 2,
+    "start": 0
+}
+
+[2020-06-11 15:35:12]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 2
+[2020-06-11 15:35:12]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 2, redis_num = 3
+[2020-06-11 15:35:12]--[src_cgi/sharefiles_cgi.c:413]--select md5, filename, pv from share_file_list order by pv desc 在操作
+[2020-06-11 15:35:12]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"title_close.png",
+			"pv":	0
+		}, {
+			"filename":	"ui_buttongroup.h",
+			"pv":	0
+		}]
+}
+[2020-06-11 15:35:17]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-11 15:35:17]--[src_cgi/sharefiles_cgi.c:85]--line = 2
+[2020-06-11 15:35:17]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-06-11 15:35:17]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 2,
+    "start": 0
+}
+
+[2020-06-11 15:35:17]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 2
+[2020-06-11 15:35:17]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 2 在操作
+[2020-06-11 15:35:17]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"tianyu",
+			"md5":	"7526fcead4ef24036b5845f9b9e9ef9d",
+			"time":	"2020-06-08 14:42:30",
+			"filename":	"ui_buttongroup.h",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.142.239:80/group1/M00/00/00/wKiO717d3dKATx9bAAAlJ47bpbQ77602.h",
+			"size":	9511,
+			"type":	"h"
+		}, {
+			"user":	"yutianyu",
+			"md5":	"a6159d77d7707c292b7a1c8b9fc7fe55",
+			"time":	"2020-06-08 14:46:01",
+			"filename":	"title_close.png",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.142.228:80/group1/M00/00/00/wKiO5F7CVGiAD3DkAAAO1syDkgc013.png",
+			"size":	3798,
+			"type":	"png"
+		}]
+}
+[2020-06-11 15:35:17]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-11 15:35:17]--[src_cgi/sharefiles_cgi.c:85]--line = 2
+[2020-06-11 15:35:17]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-06-11 15:35:17]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 2,
+    "start": 0
+}
+
+[2020-06-11 15:35:17]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 2
+[2020-06-11 15:35:17]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 2, redis_num = 3
+[2020-06-11 15:35:17]--[src_cgi/sharefiles_cgi.c:413]--select md5, filename, pv from share_file_list order by pv desc 在操作
+[2020-06-11 15:35:17]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"title_close.png",
+			"pv":	0
+		}, {
+			"filename":	"ui_buttongroup.h",
+			"pv":	0
+		}]
+}
+[2020-06-11 15:35:32]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-11 15:35:32]--[src_cgi/sharefiles_cgi.c:85]--line = 2
+[2020-06-11 15:35:32]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-06-11 15:35:32]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 2,
+    "start": 0
+}
+
+[2020-06-11 15:35:32]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 2
+[2020-06-11 15:35:32]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 2, redis_num = 3
+[2020-06-11 15:35:32]--[src_cgi/sharefiles_cgi.c:413]--select md5, filename, pv from share_file_list order by pv desc 在操作
+[2020-06-11 15:35:32]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"title_close.png",
+			"pv":	0
+		}, {
+			"filename":	"ui_buttongroup.h",
+			"pv":	0
+		}]
+}
+[2020-06-11 15:35:33]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-11 15:35:33]--[src_cgi/sharefiles_cgi.c:85]--line = 2
+[2020-06-11 15:35:33]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-06-11 15:35:33]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 2,
+    "start": 0
+}
+
+[2020-06-11 15:35:33]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 2
+[2020-06-11 15:35:33]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 2 在操作
+[2020-06-11 15:35:33]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"tianyu",
+			"md5":	"7526fcead4ef24036b5845f9b9e9ef9d",
+			"time":	"2020-06-08 14:42:30",
+			"filename":	"ui_buttongroup.h",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.142.239:80/group1/M00/00/00/wKiO717d3dKATx9bAAAlJ47bpbQ77602.h",
+			"size":	9511,
+			"type":	"h"
+		}, {
+			"user":	"yutianyu",
+			"md5":	"a6159d77d7707c292b7a1c8b9fc7fe55",
+			"time":	"2020-06-08 14:46:01",
+			"filename":	"title_close.png",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.142.228:80/group1/M00/00/00/wKiO5F7CVGiAD3DkAAAO1syDkgc013.png",
+			"size":	3798,
+			"type":	"png"
+		}]
+}
+[2020-06-11 15:35:34]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-11 15:35:34]--[src_cgi/sharefiles_cgi.c:85]--line = 2
+[2020-06-11 15:35:34]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-06-11 15:35:34]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 2,
+    "start": 0
+}
+
+[2020-06-11 15:35:34]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 2
+[2020-06-11 15:35:34]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 2 在操作
+[2020-06-11 15:35:34]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"tianyu",
+			"md5":	"7526fcead4ef24036b5845f9b9e9ef9d",
+			"time":	"2020-06-08 14:42:30",
+			"filename":	"ui_buttongroup.h",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.142.239:80/group1/M00/00/00/wKiO717d3dKATx9bAAAlJ47bpbQ77602.h",
+			"size":	9511,
+			"type":	"h"
+		}, {
+			"user":	"yutianyu",
+			"md5":	"a6159d77d7707c292b7a1c8b9fc7fe55",
+			"time":	"2020-06-08 14:46:01",
+			"filename":	"title_close.png",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.142.228:80/group1/M00/00/00/wKiO5F7CVGiAD3DkAAAO1syDkgc013.png",
+			"size":	3798,
+			"type":	"png"
+		}]
+}
+[2020-06-11 15:35:35]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-11 15:35:35]--[src_cgi/sharefiles_cgi.c:85]--line = 2
+[2020-06-11 15:35:35]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-06-11 15:35:35]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 2,
+    "start": 0
+}
+
+[2020-06-11 15:35:35]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 2
+[2020-06-11 15:35:35]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 2, redis_num = 3
+[2020-06-11 15:35:35]--[src_cgi/sharefiles_cgi.c:413]--select md5, filename, pv from share_file_list order by pv desc 在操作
+[2020-06-11 15:35:35]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"title_close.png",
+			"pv":	0
+		}, {
+			"filename":	"ui_buttongroup.h",
+			"pv":	0
+		}]
+}
+[2020-06-11 15:35:36]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-11 15:35:36]--[src_cgi/sharefiles_cgi.c:85]--line = 2
+[2020-06-11 15:35:36]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-06-11 15:35:36]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 2,
+    "start": 0
+}
+
+[2020-06-11 15:35:36]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 2
+[2020-06-11 15:35:36]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 2, redis_num = 3
+[2020-06-11 15:35:36]--[src_cgi/sharefiles_cgi.c:413]--select md5, filename, pv from share_file_list order by pv desc 在操作
+[2020-06-11 15:35:36]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"title_close.png",
+			"pv":	0
+		}, {
+			"filename":	"ui_buttongroup.h",
+			"pv":	0
+		}]
+}
+[2020-06-11 15:35:37]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-11 15:35:37]--[src_cgi/sharefiles_cgi.c:85]--line = 2
+[2020-06-11 15:35:37]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-06-11 15:35:37]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 2,
+    "start": 0
+}
+
+[2020-06-11 15:35:37]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 2
+[2020-06-11 15:35:37]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 2 在操作
+[2020-06-11 15:35:37]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"tianyu",
+			"md5":	"7526fcead4ef24036b5845f9b9e9ef9d",
+			"time":	"2020-06-08 14:42:30",
+			"filename":	"ui_buttongroup.h",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.142.239:80/group1/M00/00/00/wKiO717d3dKATx9bAAAlJ47bpbQ77602.h",
+			"size":	9511,
+			"type":	"h"
+		}, {
+			"user":	"yutianyu",
+			"md5":	"a6159d77d7707c292b7a1c8b9fc7fe55",
+			"time":	"2020-06-08 14:46:01",
+			"filename":	"title_close.png",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.142.228:80/group1/M00/00/00/wKiO5F7CVGiAD3DkAAAO1syDkgc013.png",
+			"size":	3798,
+			"type":	"png"
+		}]
+}
+[2020-06-11 15:35:37]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-11 15:35:37]--[src_cgi/sharefiles_cgi.c:85]--line = 2
+[2020-06-11 15:35:38]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-06-11 15:35:38]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 2,
+    "start": 0
+}
+
+[2020-06-11 15:35:38]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 2
+[2020-06-11 15:35:38]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 2 在操作
+[2020-06-11 15:35:38]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"tianyu",
+			"md5":	"7526fcead4ef24036b5845f9b9e9ef9d",
+			"time":	"2020-06-08 14:42:30",
+			"filename":	"ui_buttongroup.h",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.142.239:80/group1/M00/00/00/wKiO717d3dKATx9bAAAlJ47bpbQ77602.h",
+			"size":	9511,
+			"type":	"h"
+		}, {
+			"user":	"yutianyu",
+			"md5":	"a6159d77d7707c292b7a1c8b9fc7fe55",
+			"time":	"2020-06-08 14:46:01",
+			"filename":	"title_close.png",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.142.228:80/group1/M00/00/00/wKiO5F7CVGiAD3DkAAAO1syDkgc013.png",
+			"size":	3798,
+			"type":	"png"
+		}]
+}
+[2020-06-11 15:35:38]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-11 15:35:38]--[src_cgi/sharefiles_cgi.c:85]--line = 2
+[2020-06-11 15:35:38]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-06-11 15:35:38]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 2,
+    "start": 0
+}
+
+[2020-06-11 15:35:38]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 2
+[2020-06-11 15:35:38]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 2, redis_num = 3
+[2020-06-11 15:35:38]--[src_cgi/sharefiles_cgi.c:413]--select md5, filename, pv from share_file_list order by pv desc 在操作
+[2020-06-11 15:35:38]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"title_close.png",
+			"pv":	0
+		}, {
+			"filename":	"ui_buttongroup.h",
+			"pv":	0
+		}]
+}
+[2020-06-11 15:35:40]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-11 15:35:40]--[src_cgi/sharefiles_cgi.c:85]--line = 2
+[2020-06-11 15:35:40]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-06-11 15:35:40]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 2,
+    "start": 0
+}
+
+[2020-06-11 15:35:40]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 2
+[2020-06-11 15:35:40]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 2, redis_num = 3
+[2020-06-11 15:35:40]--[src_cgi/sharefiles_cgi.c:413]--select md5, filename, pv from share_file_list order by pv desc 在操作
+[2020-06-11 15:35:40]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"title_close.png",
+			"pv":	0
+		}, {
+			"filename":	"ui_buttongroup.h",
+			"pv":	0
+		}]
+}
+[2020-06-11 15:35:44]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-11 15:35:44]--[src_cgi/sharefiles_cgi.c:85]--line = 2
+[2020-06-11 15:35:44]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-06-11 15:35:44]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 2,
+    "start": 0
+}
+
+[2020-06-11 15:35:44]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 2
+[2020-06-11 15:35:44]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 2 在操作
+[2020-06-11 15:35:44]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"tianyu",
+			"md5":	"7526fcead4ef24036b5845f9b9e9ef9d",
+			"time":	"2020-06-08 14:42:30",
+			"filename":	"ui_buttongroup.h",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.142.239:80/group1/M00/00/00/wKiO717d3dKATx9bAAAlJ47bpbQ77602.h",
+			"size":	9511,
+			"type":	"h"
+		}, {
+			"user":	"yutianyu",
+			"md5":	"a6159d77d7707c292b7a1c8b9fc7fe55",
+			"time":	"2020-06-08 14:46:01",
+			"filename":	"title_close.png",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.142.228:80/group1/M00/00/00/wKiO5F7CVGiAD3DkAAAO1syDkgc013.png",
+			"size":	3798,
+			"type":	"png"
+		}]
+}
+[2020-06-11 15:35:50]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-11 15:35:50]--[src_cgi/sharefiles_cgi.c:85]--line = 2
+[2020-06-11 15:35:50]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-06-11 15:35:50]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 2,
+    "start": 0
+}
+
+[2020-06-11 15:35:50]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 2
+[2020-06-11 15:35:50]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 2, redis_num = 3
+[2020-06-11 15:35:50]--[src_cgi/sharefiles_cgi.c:413]--select md5, filename, pv from share_file_list order by pv desc 在操作
+[2020-06-11 15:35:50]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"title_close.png",
+			"pv":	0
+		}, {
+			"filename":	"ui_buttongroup.h",
+			"pv":	0
+		}]
+}
+[2020-06-11 15:35:51]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-11 15:35:51]--[src_cgi/sharefiles_cgi.c:85]--line = 2
+[2020-06-11 15:35:51]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-06-11 15:35:51]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 2,
+    "start": 0
+}
+
+[2020-06-11 15:35:51]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 2
+[2020-06-11 15:35:51]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 2, redis_num = 3
+[2020-06-11 15:35:51]--[src_cgi/sharefiles_cgi.c:413]--select md5, filename, pv from share_file_list order by pv desc 在操作
+[2020-06-11 15:35:51]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"title_close.png",
+			"pv":	0
+		}, {
+			"filename":	"ui_buttongroup.h",
+			"pv":	0
+		}]
+}
+[2020-06-11 15:35:51]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-11 15:35:51]--[src_cgi/sharefiles_cgi.c:85]--line = 2
+[2020-06-11 15:35:51]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-06-11 15:35:51]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 2,
+    "start": 0
+}
+
+[2020-06-11 15:35:51]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 2
+[2020-06-11 15:35:51]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 2 在操作
+[2020-06-11 15:35:51]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"tianyu",
+			"md5":	"7526fcead4ef24036b5845f9b9e9ef9d",
+			"time":	"2020-06-08 14:42:30",
+			"filename":	"ui_buttongroup.h",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.142.239:80/group1/M00/00/00/wKiO717d3dKATx9bAAAlJ47bpbQ77602.h",
+			"size":	9511,
+			"type":	"h"
+		}, {
+			"user":	"yutianyu",
+			"md5":	"a6159d77d7707c292b7a1c8b9fc7fe55",
+			"time":	"2020-06-08 14:46:01",
+			"filename":	"title_close.png",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.142.228:80/group1/M00/00/00/wKiO5F7CVGiAD3DkAAAO1syDkgc013.png",
+			"size":	3798,
+			"type":	"png"
+		}]
+}
+[2020-06-11 15:36:07]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-11 15:36:07]--[src_cgi/sharefiles_cgi.c:85]--line = 2
+[2020-06-11 15:36:07]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-06-11 15:36:07]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 2,
+    "start": 0
+}
+
+[2020-06-11 15:36:07]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 2
+[2020-06-11 15:36:07]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 2 在操作
+[2020-06-11 15:36:07]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"tianyu",
+			"md5":	"7526fcead4ef24036b5845f9b9e9ef9d",
+			"time":	"2020-06-08 14:42:30",
+			"filename":	"ui_buttongroup.h",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.142.239:80/group1/M00/00/00/wKiO717d3dKATx9bAAAlJ47bpbQ77602.h",
+			"size":	9511,
+			"type":	"h"
+		}, {
+			"user":	"yutianyu",
+			"md5":	"a6159d77d7707c292b7a1c8b9fc7fe55",
+			"time":	"2020-06-08 14:46:01",
+			"filename":	"title_close.png",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.142.228:80/group1/M00/00/00/wKiO5F7CVGiAD3DkAAAO1syDkgc013.png",
+			"size":	3798,
+			"type":	"png"
+		}]
+}
+[2020-06-11 15:36:07]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-11 15:36:07]--[src_cgi/sharefiles_cgi.c:85]--line = 2
+[2020-06-11 15:36:07]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-06-11 15:36:07]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 2,
+    "start": 0
+}
+
+[2020-06-11 15:36:07]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 2
+[2020-06-11 15:36:07]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 2, redis_num = 3
+[2020-06-11 15:36:07]--[src_cgi/sharefiles_cgi.c:413]--select md5, filename, pv from share_file_list order by pv desc 在操作
+[2020-06-11 15:36:07]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"title_close.png",
+			"pv":	0
+		}, {
+			"filename":	"ui_buttongroup.h",
+			"pv":	0
+		}]
+}
+[2020-06-11 15:36:08]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-11 15:36:08]--[src_cgi/sharefiles_cgi.c:85]--line = 2
+[2020-06-11 15:36:08]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-06-11 15:36:08]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 2,
+    "start": 0
+}
+
+[2020-06-11 15:36:08]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 2
+[2020-06-11 15:36:08]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 2 在操作
+[2020-06-11 15:36:08]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"tianyu",
+			"md5":	"7526fcead4ef24036b5845f9b9e9ef9d",
+			"time":	"2020-06-08 14:42:30",
+			"filename":	"ui_buttongroup.h",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.142.239:80/group1/M00/00/00/wKiO717d3dKATx9bAAAlJ47bpbQ77602.h",
+			"size":	9511,
+			"type":	"h"
+		}, {
+			"user":	"yutianyu",
+			"md5":	"a6159d77d7707c292b7a1c8b9fc7fe55",
+			"time":	"2020-06-08 14:46:01",
+			"filename":	"title_close.png",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.142.228:80/group1/M00/00/00/wKiO5F7CVGiAD3DkAAAO1syDkgc013.png",
+			"size":	3798,
+			"type":	"png"
+		}]
+}
+[2020-06-11 15:36:11]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-11 15:36:11]--[src_cgi/sharefiles_cgi.c:85]--line = 2
+[2020-06-11 15:36:11]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-06-11 15:36:11]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 2,
+    "start": 0
+}
+
+[2020-06-11 15:36:11]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 2
+[2020-06-11 15:36:11]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 2 在操作
+[2020-06-11 15:36:11]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"tianyu",
+			"md5":	"7526fcead4ef24036b5845f9b9e9ef9d",
+			"time":	"2020-06-08 14:42:30",
+			"filename":	"ui_buttongroup.h",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.142.239:80/group1/M00/00/00/wKiO717d3dKATx9bAAAlJ47bpbQ77602.h",
+			"size":	9511,
+			"type":	"h"
+		}, {
+			"user":	"yutianyu",
+			"md5":	"a6159d77d7707c292b7a1c8b9fc7fe55",
+			"time":	"2020-06-08 14:46:01",
+			"filename":	"title_close.png",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.142.228:80/group1/M00/00/00/wKiO5F7CVGiAD3DkAAAO1syDkgc013.png",
+			"size":	3798,
+			"type":	"png"
+		}]
+}
+[2020-06-11 19:34:54]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-11 19:34:54]--[src_cgi/sharefiles_cgi.c:85]--line = 2
+[2020-06-11 19:34:54]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-06-11 19:34:54]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 2,
+    "start": 0
+}
+
+[2020-06-11 19:34:54]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 2
+[2020-06-11 19:34:54]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 2 在操作
+[2020-06-11 19:34:54]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"tianyu",
+			"md5":	"7526fcead4ef24036b5845f9b9e9ef9d",
+			"time":	"2020-06-08 14:42:30",
+			"filename":	"ui_buttongroup.h",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.142.239:80/group1/M00/00/00/wKiO717d3dKATx9bAAAlJ47bpbQ77602.h",
+			"size":	9511,
+			"type":	"h"
+		}, {
+			"user":	"yutianyu",
+			"md5":	"a6159d77d7707c292b7a1c8b9fc7fe55",
+			"time":	"2020-06-08 14:46:01",
+			"filename":	"title_close.png",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.142.228:80/group1/M00/00/00/wKiO5F7CVGiAD3DkAAAO1syDkgc013.png",
+			"size":	3798,
+			"type":	"png"
+		}]
+}
+[2020-06-11 19:35:20]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-11 19:35:20]--[src_cgi/sharefiles_cgi.c:85]--line = 2
+[2020-06-11 19:35:20]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-06-11 19:35:20]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 2,
+    "start": 0
+}
+
+[2020-06-11 19:35:20]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 2
+[2020-06-11 19:35:20]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 2, redis_num = 3
+[2020-06-11 19:35:20]--[src_cgi/sharefiles_cgi.c:413]--select md5, filename, pv from share_file_list order by pv desc 在操作
+[2020-06-11 19:35:20]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"title_close.png",
+			"pv":	0
+		}, {
+			"filename":	"ui_buttongroup.h",
+			"pv":	0
+		}]
+}
+[2020-06-11 19:35:21]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-11 19:35:21]--[src_cgi/sharefiles_cgi.c:85]--line = 2
+[2020-06-11 19:35:21]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-06-11 19:35:21]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 2,
+    "start": 0
+}
+
+[2020-06-11 19:35:21]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 2
+[2020-06-11 19:35:21]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 2 在操作
+[2020-06-11 19:35:21]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"tianyu",
+			"md5":	"7526fcead4ef24036b5845f9b9e9ef9d",
+			"time":	"2020-06-08 14:42:30",
+			"filename":	"ui_buttongroup.h",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.142.239:80/group1/M00/00/00/wKiO717d3dKATx9bAAAlJ47bpbQ77602.h",
+			"size":	9511,
+			"type":	"h"
+		}, {
+			"user":	"yutianyu",
+			"md5":	"a6159d77d7707c292b7a1c8b9fc7fe55",
+			"time":	"2020-06-08 14:46:01",
+			"filename":	"title_close.png",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.142.228:80/group1/M00/00/00/wKiO5F7CVGiAD3DkAAAO1syDkgc013.png",
+			"size":	3798,
+			"type":	"png"
+		}]
+}
+[2020-06-11 19:35:33]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-11 19:35:33]--[src_cgi/sharefiles_cgi.c:85]--line = 2
+[2020-06-11 19:35:33]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-06-11 19:35:33]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 2,
+    "start": 0
+}
+
+[2020-06-11 19:35:33]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 2
+[2020-06-11 19:35:33]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 2, redis_num = 3
+[2020-06-11 19:35:33]--[src_cgi/sharefiles_cgi.c:413]--select md5, filename, pv from share_file_list order by pv desc 在操作
+[2020-06-11 19:35:33]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"title_close.png",
+			"pv":	0
+		}, {
+			"filename":	"ui_buttongroup.h",
+			"pv":	0
+		}]
+}
+[2020-06-11 19:35:34]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-11 19:35:34]--[src_cgi/sharefiles_cgi.c:85]--line = 2
+[2020-06-11 19:35:34]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-06-11 19:35:34]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 2,
+    "start": 0
+}
+
+[2020-06-11 19:35:34]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 2
+[2020-06-11 19:35:34]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 2, redis_num = 3
+[2020-06-11 19:35:34]--[src_cgi/sharefiles_cgi.c:413]--select md5, filename, pv from share_file_list order by pv desc 在操作
+[2020-06-11 19:35:34]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"title_close.png",
+			"pv":	0
+		}, {
+			"filename":	"ui_buttongroup.h",
+			"pv":	0
+		}]
+}
+[2020-06-11 19:35:36]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-11 19:35:36]--[src_cgi/sharefiles_cgi.c:85]--line = 2
+[2020-06-11 19:35:36]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-06-11 19:35:36]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 2,
+    "start": 0
+}
+
+[2020-06-11 19:35:36]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 2
+[2020-06-11 19:35:36]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 2 在操作
+[2020-06-11 19:35:36]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"tianyu",
+			"md5":	"7526fcead4ef24036b5845f9b9e9ef9d",
+			"time":	"2020-06-08 14:42:30",
+			"filename":	"ui_buttongroup.h",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.142.239:80/group1/M00/00/00/wKiO717d3dKATx9bAAAlJ47bpbQ77602.h",
+			"size":	9511,
+			"type":	"h"
+		}, {
+			"user":	"yutianyu",
+			"md5":	"a6159d77d7707c292b7a1c8b9fc7fe55",
+			"time":	"2020-06-08 14:46:01",
+			"filename":	"title_close.png",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.142.228:80/group1/M00/00/00/wKiO5F7CVGiAD3DkAAAO1syDkgc013.png",
+			"size":	3798,
+			"type":	"png"
+		}]
+}
+[2020-06-11 19:35:37]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-11 19:35:37]--[src_cgi/sharefiles_cgi.c:85]--line = 2
+[2020-06-11 19:35:37]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-06-11 19:35:37]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 2,
+    "start": 0
+}
+
+[2020-06-11 19:35:37]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 2
+[2020-06-11 19:35:37]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 2, redis_num = 3
+[2020-06-11 19:35:37]--[src_cgi/sharefiles_cgi.c:413]--select md5, filename, pv from share_file_list order by pv desc 在操作
+[2020-06-11 19:35:37]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"title_close.png",
+			"pv":	0
+		}, {
+			"filename":	"ui_buttongroup.h",
+			"pv":	0
+		}]
+}
+[2020-06-11 19:35:38]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-11 19:35:38]--[src_cgi/sharefiles_cgi.c:85]--line = 2
+[2020-06-11 19:35:38]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-06-11 19:35:38]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 2,
+    "start": 0
+}
+
+[2020-06-11 19:35:38]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 2
+[2020-06-11 19:35:38]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 2 在操作
+[2020-06-11 19:35:38]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"tianyu",
+			"md5":	"7526fcead4ef24036b5845f9b9e9ef9d",
+			"time":	"2020-06-08 14:42:30",
+			"filename":	"ui_buttongroup.h",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.142.239:80/group1/M00/00/00/wKiO717d3dKATx9bAAAlJ47bpbQ77602.h",
+			"size":	9511,
+			"type":	"h"
+		}, {
+			"user":	"yutianyu",
+			"md5":	"a6159d77d7707c292b7a1c8b9fc7fe55",
+			"time":	"2020-06-08 14:46:01",
+			"filename":	"title_close.png",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.142.228:80/group1/M00/00/00/wKiO5F7CVGiAD3DkAAAO1syDkgc013.png",
+			"size":	3798,
+			"type":	"png"
+		}]
+}
+[2020-06-11 19:35:40]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-11 19:35:40]--[src_cgi/sharefiles_cgi.c:85]--line = 2
+[2020-06-11 19:35:40]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-06-11 19:35:40]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 2,
+    "start": 0
+}
+
+[2020-06-11 19:35:40]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 2
+[2020-06-11 19:35:40]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 2, redis_num = 3
+[2020-06-11 19:35:40]--[src_cgi/sharefiles_cgi.c:413]--select md5, filename, pv from share_file_list order by pv desc 在操作
+[2020-06-11 19:35:40]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"title_close.png",
+			"pv":	0
+		}, {
+			"filename":	"ui_buttongroup.h",
+			"pv":	0
+		}]
+}
+[2020-06-11 20:27:06]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-11 20:27:06]--[src_cgi/sharefiles_cgi.c:85]--line = 2
+[2020-06-11 20:27:06]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-06-11 20:27:06]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 2,
+    "start": 0
+}
+
+[2020-06-11 20:27:06]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 2
+[2020-06-11 20:27:06]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 2 在操作
+[2020-06-11 20:27:06]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"tianyu",
+			"md5":	"7526fcead4ef24036b5845f9b9e9ef9d",
+			"time":	"2020-06-08 14:42:30",
+			"filename":	"ui_buttongroup.h",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.142.239:80/group1/M00/00/00/wKiO717d3dKATx9bAAAlJ47bpbQ77602.h",
+			"size":	9511,
+			"type":	"h"
+		}, {
+			"user":	"yutianyu",
+			"md5":	"a6159d77d7707c292b7a1c8b9fc7fe55",
+			"time":	"2020-06-08 14:46:01",
+			"filename":	"title_close.png",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.142.228:80/group1/M00/00/00/wKiO5F7CVGiAD3DkAAAO1syDkgc013.png",
+			"size":	3798,
+			"type":	"png"
+		}]
+}
+[2020-06-11 20:27:28]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-11 20:27:28]--[src_cgi/sharefiles_cgi.c:85]--line = 2
+[2020-06-11 20:27:28]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-06-11 20:27:28]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 2,
+    "start": 0
+}
+
+[2020-06-11 20:27:28]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 2
+[2020-06-11 20:27:28]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 2 在操作
+[2020-06-11 20:27:28]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"tianyu",
+			"md5":	"7526fcead4ef24036b5845f9b9e9ef9d",
+			"time":	"2020-06-08 14:42:30",
+			"filename":	"ui_buttongroup.h",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.142.239:80/group1/M00/00/00/wKiO717d3dKATx9bAAAlJ47bpbQ77602.h",
+			"size":	9511,
+			"type":	"h"
+		}, {
+			"user":	"yutianyu",
+			"md5":	"a6159d77d7707c292b7a1c8b9fc7fe55",
+			"time":	"2020-06-08 14:46:01",
+			"filename":	"title_close.png",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.142.228:80/group1/M00/00/00/wKiO5F7CVGiAD3DkAAAO1syDkgc013.png",
+			"size":	3798,
+			"type":	"png"
+		}]
+}
+[2020-06-11 20:27:58]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-11 20:27:58]--[src_cgi/sharefiles_cgi.c:85]--line = 2
+[2020-06-11 20:27:58]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-06-11 20:27:58]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 2,
+    "start": 0
+}
+
+[2020-06-11 20:27:58]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 2
+[2020-06-11 20:27:58]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 2, redis_num = 3
+[2020-06-11 20:27:58]--[src_cgi/sharefiles_cgi.c:413]--select md5, filename, pv from share_file_list order by pv desc 在操作
+[2020-06-11 20:27:58]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"title_close.png",
+			"pv":	0
+		}, {
+			"filename":	"ui_buttongroup.h",
+			"pv":	0
+		}]
+}
+[2020-06-11 20:28:00]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-11 20:28:00]--[src_cgi/sharefiles_cgi.c:85]--line = 2
+[2020-06-11 20:28:00]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-06-11 20:28:00]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 2,
+    "start": 0
+}
+
+[2020-06-11 20:28:00]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 2
+[2020-06-11 20:28:00]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 2, redis_num = 3
+[2020-06-11 20:28:00]--[src_cgi/sharefiles_cgi.c:413]--select md5, filename, pv from share_file_list order by pv desc 在操作
+[2020-06-11 20:28:00]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"title_close.png",
+			"pv":	1
+		}, {
+			"filename":	"ui_buttongroup.h",
+			"pv":	0
+		}]
+}
+[2020-06-11 20:28:15]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-11 20:28:15]--[src_cgi/sharefiles_cgi.c:85]--line = 2
+[2020-06-11 20:28:15]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-06-11 20:28:15]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 2,
+    "start": 0
+}
+
+[2020-06-11 20:28:15]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 2
+[2020-06-11 20:28:15]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 2 在操作
+[2020-06-11 20:28:15]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"tianyu",
+			"md5":	"7526fcead4ef24036b5845f9b9e9ef9d",
+			"time":	"2020-06-08 14:42:30",
+			"filename":	"ui_buttongroup.h",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.142.239:80/group1/M00/00/00/wKiO717d3dKATx9bAAAlJ47bpbQ77602.h",
+			"size":	9511,
+			"type":	"h"
+		}, {
+			"user":	"yutianyu",
+			"md5":	"a6159d77d7707c292b7a1c8b9fc7fe55",
+			"time":	"2020-06-08 14:46:01",
+			"filename":	"title_close.png",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.142.228:80/group1/M00/00/00/wKiO5F7CVGiAD3DkAAAO1syDkgc013.png",
+			"size":	3798,
+			"type":	"png"
+		}]
+}
+[2020-06-11 20:34:22]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-11 20:34:22]--[src_cgi/sharefiles_cgi.c:85]--line = 2
+[2020-06-11 20:34:22]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-06-11 20:34:22]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 2,
+    "start": 0
+}
+
+[2020-06-11 20:34:22]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 2
+[2020-06-11 20:34:22]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 2 在操作
+[2020-06-11 20:34:22]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"tianyu",
+			"md5":	"7526fcead4ef24036b5845f9b9e9ef9d",
+			"time":	"2020-06-08 14:42:30",
+			"filename":	"ui_buttongroup.h",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.142.239:80/group1/M00/00/00/wKiO717d3dKATx9bAAAlJ47bpbQ77602.h",
+			"size":	9511,
+			"type":	"h"
+		}, {
+			"user":	"yutianyu",
+			"md5":	"a6159d77d7707c292b7a1c8b9fc7fe55",
+			"time":	"2020-06-08 14:46:01",
+			"filename":	"title_close.png",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.142.228:80/group1/M00/00/00/wKiO5F7CVGiAD3DkAAAO1syDkgc013.png",
+			"size":	3798,
+			"type":	"png"
+		}]
+}
+[2020-06-11 20:44:05]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-11 20:44:05]--[src_cgi/sharefiles_cgi.c:85]--line = 2
+[2020-06-11 20:44:05]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-06-11 20:44:05]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 2,
+    "start": 0
+}
+
+[2020-06-11 20:44:05]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 2
+[2020-06-11 20:44:05]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 2 在操作
+[2020-06-11 20:44:05]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"tianyu",
+			"md5":	"7526fcead4ef24036b5845f9b9e9ef9d",
+			"time":	"2020-06-08 14:42:30",
+			"filename":	"ui_buttongroup.h",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.142.239:80/group1/M00/00/00/wKiO717d3dKATx9bAAAlJ47bpbQ77602.h",
+			"size":	9511,
+			"type":	"h"
+		}, {
+			"user":	"yutianyu",
+			"md5":	"a6159d77d7707c292b7a1c8b9fc7fe55",
+			"time":	"2020-06-08 14:46:01",
+			"filename":	"title_close.png",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.142.228:80/group1/M00/00/00/wKiO5F7CVGiAD3DkAAAO1syDkgc013.png",
+			"size":	3798,
+			"type":	"png"
+		}]
+}
+[2020-06-11 20:44:07]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-11 20:44:07]--[src_cgi/sharefiles_cgi.c:85]--line = 2
+[2020-06-11 20:44:07]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-06-11 20:44:07]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 2,
+    "start": 0
+}
+
+[2020-06-11 20:44:07]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 2
+[2020-06-11 20:44:07]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 2, redis_num = 3
+[2020-06-11 20:44:07]--[src_cgi/sharefiles_cgi.c:413]--select md5, filename, pv from share_file_list order by pv desc 在操作
+[2020-06-11 20:44:07]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"title_close.png",
+			"pv":	1
+		}, {
+			"filename":	"ui_buttongroup.h",
+			"pv":	1
+		}]
+}

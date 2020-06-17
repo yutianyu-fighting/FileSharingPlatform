@@ -1,0 +1,59 @@
+[2017-07-13 17:35:52]--[src_cgi/dealsharefile_cgi.c:42]--mysql:[user=root,pwd=root,database=cloud_disk][2017-07-13 17:35:52]--[src_cgi/dealsharefile_cgi.c:47]--redis:[ip=127.0.0.1,port=6379]
+[2017-07-13 17:41:01]--[src_cgi/dealsharefile_cgi.c:42]--mysql:[user=root,pwd=root,database=cloud_disk][2017-07-13 17:41:01]--[src_cgi/dealsharefile_cgi.c:47]--redis:[ip=127.0.0.1,port=6379]
+[2017-07-13 08:59:17]--[src_cgi/dealsharefile_cgi.c:552]--cmd = cancel
+[2017-07-13 08:59:17]--[src_cgi/dealsharefile_cgi.c:584]--buf = {
+    "filename": "a.png",
+    "md5": "e5c452a06e06da6edbdd9c0e27f9fe8a",
+    "user": "kevin"
+}
+
+[2017-07-13 08:59:17]--[src_cgi/dealsharefile_cgi.c:587]--user = kevin, md5 = e5c452a06e06da6edbdd9c0e27f9fe8a, filename = a.png
+[2017-07-13 10:28:14]--[src_cgi/dealsharefile_cgi.c:552]--cmd = pv
+[2017-07-13 10:28:14]--[src_cgi/dealsharefile_cgi.c:584]--buf = {
+    "filename": "Makefile",
+    "md5": "47e01c4f370a9383320eee9193251e54",
+    "user": "kevin"
+}
+
+[2017-07-13 10:28:14]--[src_cgi/dealsharefile_cgi.c:587]--user = kevin, md5 = 47e01c4f370a9383320eee9193251e54, filename = Makefile
+[2017-07-13 10:28:47]--[src_cgi/dealsharefile_cgi.c:552]--cmd = pv
+[2017-07-13 10:28:47]--[src_cgi/dealsharefile_cgi.c:584]--buf = {
+    "filename": "Penguins.jpg",
+    "md5": "9d377b10ce778c4938b3c7e2c63a229a",
+    "user": "kevin"
+}
+
+[2017-07-13 10:28:47]--[src_cgi/dealsharefile_cgi.c:587]--user = kevin, md5 = 9d377b10ce778c4938b3c7e2c63a229a, filename = Penguins.jpg
+[2017-07-13 10:56:17]--[src_cgi/dealsharefile_cgi.c:552]--cmd = pv
+[2017-07-13 10:56:17]--[src_cgi/dealsharefile_cgi.c:584]--buf = {
+    "filename": "Desert.jpg",
+    "md5": "ba45c8f60456a672e003a875e469d0eb",
+    "user": "kevin"
+}
+
+[2017-07-13 10:56:17]--[src_cgi/dealsharefile_cgi.c:587]--user = kevin, md5 = ba45c8f60456a672e003a875e469d0eb, filename = Desert.jpg
+[2017-07-13 20:06:57]--[src_cgi/dealsharefile_cgi.c:552]--cmd = pv
+[2017-07-13 20:06:57]--[src_cgi/dealsharefile_cgi.c:584]--buf = {
+    "filename": "Penguins.jpg",
+    "md5": "9d377b10ce778c4938b3c7e2c63a229a",
+    "user": "kevin"
+}
+
+[2017-07-13 20:06:57]--[src_cgi/dealsharefile_cgi.c:587]--user = kevin, md5 = 9d377b10ce778c4938b3c7e2c63a229a, filename = Penguins.jpg
+[2017-07-13 20:19:20]--[src_cgi/dealsharefile_cgi.c:552]--cmd = pv
+[2017-07-13 20:19:20]--[src_cgi/dealsharefile_cgi.c:584]--buf = {
+    "filename": "Desert.jpg",
+    "md5": "ba45c8f60456a672e003a875e469d0eb",
+    "user": "kevin"
+}
+
+[2017-07-13 20:19:20]--[src_cgi/dealsharefile_cgi.c:587]--user = kevin, md5 = ba45c8f60456a672e003a875e469d0eb, filename = Desert.jpg
+[2017-07-13 20:26:43]--[src_cgi/dealsharefile_cgi.c:552]--cmd = pv
+[2017-07-13 20:26:43]--[src_cgi/dealsharefile_cgi.c:584]--buf = {
+    "filename": "Penguins.jpg",
+    "md5": "9d377b10ce778c4938b3c7e2c63a229a",
+    "user": "kevin"
+}
+
+[2017-07-13 20:26:43]--[src_cgi/dealsharefile_cgi.c:587]--user = kevin, md5 = 9d377b10ce778c4938b3c7e2c63a229a, filename = Penguins.jpg
+[2017-07-13 20:26:43]--[src_cgi/dealsharefile_cgi.c:190]--rop_zset_increment 操作失败

@@ -1,0 +1,698 @@
+[2017-07-12 00:32:00]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2017-07-12 00:32:00]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "1088f0d1cf5c4949199156a94e7580a0",
+    "user": "kevin"
+}
+
+[2017-07-12 00:32:00]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="kevin" 操作失败
+[2017-07-12 00:32:00]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2017-07-12 01:31:07]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2017-07-12 01:31:07]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "245dae303d6644e03a5848479adac517",
+    "user": "kevin"
+}
+
+[2017-07-12 01:31:07]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="kevin" 操作失败
+[2017-07-12 01:31:07]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2017-07-12 01:36:08]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2017-07-12 01:36:08]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "f87de4820906cd3e8a14682818bd88d0",
+    "user": "kevin"
+}
+
+[2017-07-12 01:36:08]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="kevin" 操作失败
+[2017-07-12 01:36:08]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2017-07-12 01:39:25]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2017-07-12 01:39:25]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "5f7a1b336d8746f9bbb0c5d4e4892758",
+    "user": "kevin"
+}
+
+[2017-07-12 01:39:25]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="kevin" 操作失败
+[2017-07-12 01:39:25]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2017-07-12 02:42:54]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2017-07-12 02:42:54]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "09654bcab591da1028a49e0975aa780a",
+    "user": "kevin"
+}
+
+[2017-07-12 02:42:54]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="kevin" 操作失败
+[2017-07-12 02:42:54]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2017-07-12 02:46:23]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2017-07-12 02:46:23]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "b478e967aecaa8bc8d7e747629d8c6d2",
+    "user": "kevin"
+}
+
+[2017-07-12 02:46:23]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="kevin" 操作失败
+[2017-07-12 02:46:23]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2017-07-12 02:47:03]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2017-07-12 02:47:03]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "325c97970a20181e53e9727e2633542b",
+    "user": "222"
+}
+
+[2017-07-12 02:47:03]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2017-07-12 02:47:04]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2017-07-12 02:47:04]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "325c97970a20181e53e9727e2633542b",
+    "user": "222"
+}
+
+[2017-07-12 02:47:04]--[src_cgi/myfiles_cgi.c:548]--user = 222, token = 325c97970a20181e53e9727e2633542b, start = 0, count = 1
+[2017-07-12 02:47:04]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = '222' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2017-07-12 02:47:04]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"222",
+			"md5":	"e7793fd935f9e8f04c5c9e7a59660ec0",
+			"time":	"2017-07-11 17:01:10",
+			"filename":	"系统架构图.pdf",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.1.22:80/group1/M00/00/00/wKgBFlllZsaALjFfAANFX_2DzMI833.pdf",
+			"size":	214367,
+			"type":	"pdf"
+		}]
+}
+[2017-07-12 02:47:22]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2017-07-12 02:47:22]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "325c97970a20181e53e9727e2633542b",
+    "user": "222"
+}
+
+[2017-07-12 02:47:22]--[src_cgi/myfiles_cgi.c:176]--line = 2
+[2017-07-12 02:47:22]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2017-07-12 02:47:22]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 2,
+    "start": 0,
+    "token": "325c97970a20181e53e9727e2633542b",
+    "user": "222"
+}
+
+[2017-07-12 02:47:22]--[src_cgi/myfiles_cgi.c:548]--user = 222, token = 325c97970a20181e53e9727e2633542b, start = 0, count = 2
+[2017-07-12 02:47:22]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = '222' and file_info.md5 = user_file_list.md5 limit 0, 2 在操作
+[2017-07-12 02:47:22]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"222",
+			"md5":	"e7793fd935f9e8f04c5c9e7a59660ec0",
+			"time":	"2017-07-11 17:01:10",
+			"filename":	"系统架构图.pdf",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.1.22:80/group1/M00/00/00/wKgBFlllZsaALjFfAANFX_2DzMI833.pdf",
+			"size":	214367,
+			"type":	"pdf"
+		}, {
+			"user":	"222",
+			"md5":	"da5fa64de97a497502281513d7230d8d",
+			"time":	"2017-07-12 02:47:14",
+			"filename":	"vs 快捷键.png",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.1.22:80/group1/M00/00/00/wKgBFlll8CKACxhwAACaByAjkMg838.png",
+			"size":	39431,
+			"type":	"png"
+		}]
+}
+[2017-07-12 02:47:27]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2017-07-12 02:47:27]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "325c97970a20181e53e9727e2633542b",
+    "user": "222"
+}
+
+[2017-07-12 02:47:27]--[src_cgi/myfiles_cgi.c:176]--line = 2
+[2017-07-12 02:47:27]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2017-07-12 02:47:27]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 2,
+    "start": 0,
+    "token": "325c97970a20181e53e9727e2633542b",
+    "user": "222"
+}
+
+[2017-07-12 02:47:27]--[src_cgi/myfiles_cgi.c:548]--user = 222, token = 325c97970a20181e53e9727e2633542b, start = 0, count = 2
+[2017-07-12 02:47:27]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = '222' and file_info.md5 = user_file_list.md5 limit 0, 2 在操作
+[2017-07-12 02:47:27]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"222",
+			"md5":	"e7793fd935f9e8f04c5c9e7a59660ec0",
+			"time":	"2017-07-11 17:01:10",
+			"filename":	"系统架构图.pdf",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.1.22:80/group1/M00/00/00/wKgBFlllZsaALjFfAANFX_2DzMI833.pdf",
+			"size":	214367,
+			"type":	"pdf"
+		}, {
+			"user":	"222",
+			"md5":	"da5fa64de97a497502281513d7230d8d",
+			"time":	"2017-07-12 02:47:14",
+			"filename":	"vs 快捷键.png",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.1.22:80/group1/M00/00/00/wKgBFlll8CKACxhwAACaByAjkMg838.png",
+			"size":	39431,
+			"type":	"png"
+		}]
+}
+[2017-07-12 03:10:43]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2017-07-12 03:10:43]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "b009c234b9dc135298781d844b368afa",
+    "user": "kevin"
+}
+
+[2017-07-12 03:10:43]--[src_cgi/myfiles_cgi.c:176]--line = 3
+[2017-07-12 03:10:43]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2017-07-12 03:10:43]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 3,
+    "start": 0,
+    "token": "b009c234b9dc135298781d844b368afa",
+    "user": "kevin"
+}
+
+[2017-07-12 03:10:43]--[src_cgi/myfiles_cgi.c:548]--user = kevin, token = b009c234b9dc135298781d844b368afa, start = 0, count = 3
+[2017-07-12 03:10:43]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'kevin' and file_info.md5 = user_file_list.md5 limit 0, 3 在操作
+[2017-07-12 03:10:43]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"kevin",
+			"md5":	"674f0d37fca4fac1bd2df28a2b78e633",
+			"time":	"2017-07-12 03:00:13",
+			"filename":	"con_and_par.jpg",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.1.22:80/group1/M00/00/00/wKgBFlll8y2AP_hKAACd_9p7lRY019.jpg",
+			"size":	40447,
+			"type":	"jpg"
+		}, {
+			"user":	"kevin",
+			"md5":	"25a547f3d8a384e60c1ab4e9ee3f9e46",
+			"time":	"2017-07-12 03:08:38",
+			"filename":	"system-image.png",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.1.22:80/group1/M00/00/00/wKgBFlll9SaAQwQSAARd8WRsgvI409.png",
+			"size":	286193,
+			"type":	"png"
+		}, {
+			"user":	"kevin",
+			"md5":	"203da119e80c78f4516ace477c54d985",
+			"time":	"2017-07-12 03:10:29",
+			"filename":	"捕获.PNG",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.1.22:80/group1/M00/00/00/wKgBFlll9ZWAJALMAABjkWY9iNg994.PNG",
+			"size":	25489,
+			"type":	"PNG"
+		}]
+}
+[2017-07-12 03:12:13]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2017-07-12 03:12:13]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "01f340e80f972aff1d338b787cf577e3",
+    "user": "kevin"
+}
+
+[2017-07-12 03:12:13]--[src_cgi/myfiles_cgi.c:176]--line = 3
+[2017-07-12 03:12:13]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2017-07-12 03:12:13]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 3,
+    "start": 0,
+    "token": "01f340e80f972aff1d338b787cf577e3",
+    "user": "kevin"
+}
+
+[2017-07-12 03:12:13]--[src_cgi/myfiles_cgi.c:548]--user = kevin, token = 01f340e80f972aff1d338b787cf577e3, start = 0, count = 3
+[2017-07-12 03:12:13]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'kevin' and file_info.md5 = user_file_list.md5 limit 0, 3 在操作
+[2017-07-12 03:12:13]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"kevin",
+			"md5":	"674f0d37fca4fac1bd2df28a2b78e633",
+			"time":	"2017-07-12 03:00:13",
+			"filename":	"con_and_par.jpg",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.1.22:80/group1/M00/00/00/wKgBFlll8y2AP_hKAACd_9p7lRY019.jpg",
+			"size":	40447,
+			"type":	"jpg"
+		}, {
+			"user":	"kevin",
+			"md5":	"25a547f3d8a384e60c1ab4e9ee3f9e46",
+			"time":	"2017-07-12 03:08:38",
+			"filename":	"system-image.png",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.1.22:80/group1/M00/00/00/wKgBFlll9SaAQwQSAARd8WRsgvI409.png",
+			"size":	286193,
+			"type":	"png"
+		}, {
+			"user":	"kevin",
+			"md5":	"203da119e80c78f4516ace477c54d985",
+			"time":	"2017-07-12 03:10:29",
+			"filename":	"捕获.PNG",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.1.22:80/group1/M00/00/00/wKgBFlll9ZWAJALMAABjkWY9iNg994.PNG",
+			"size":	25489,
+			"type":	"PNG"
+		}]
+}
+[2017-07-12 08:20:21]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2017-07-12 08:20:21]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "318f180da81900fe5c6d039515c72722",
+    "user": "kevin"
+}
+
+[2017-07-12 08:20:21]--[src_cgi/myfiles_cgi.c:176]--line = 3
+[2017-07-12 08:20:21]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2017-07-12 08:20:21]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 3,
+    "start": 0,
+    "token": "318f180da81900fe5c6d039515c72722",
+    "user": "kevin"
+}
+
+[2017-07-12 08:20:21]--[src_cgi/myfiles_cgi.c:548]--user = kevin, token = 318f180da81900fe5c6d039515c72722, start = 0, count = 3
+[2017-07-12 08:20:21]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'kevin' and file_info.md5 = user_file_list.md5 limit 0, 3 在操作
+[2017-07-12 08:20:21]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"kevin",
+			"md5":	"674f0d37fca4fac1bd2df28a2b78e633",
+			"time":	"2017-07-12 03:00:13",
+			"filename":	"con_and_par.jpg",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.1.22:80/group1/M00/00/00/wKgBFlll8y2AP_hKAACd_9p7lRY019.jpg",
+			"size":	40447,
+			"type":	"jpg"
+		}, {
+			"user":	"kevin",
+			"md5":	"25a547f3d8a384e60c1ab4e9ee3f9e46",
+			"time":	"2017-07-12 03:08:38",
+			"filename":	"system-image.png",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.1.22:80/group1/M00/00/00/wKgBFlll9SaAQwQSAARd8WRsgvI409.png",
+			"size":	286193,
+			"type":	"png"
+		}, {
+			"user":	"kevin",
+			"md5":	"203da119e80c78f4516ace477c54d985",
+			"time":	"2017-07-12 03:10:29",
+			"filename":	"捕获.PNG",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.1.22:80/group1/M00/00/00/wKgBFlll9ZWAJALMAABjkWY9iNg994.PNG",
+			"size":	25489,
+			"type":	"PNG"
+		}]
+}
+[2017-07-12 08:21:01]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2017-07-12 08:21:01]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "318f180da81900fe5c6d039515c72722",
+    "user": "kevin"
+}
+
+[2017-07-12 08:21:01]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2017-07-12 08:21:02]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2017-07-12 08:21:02]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "318f180da81900fe5c6d039515c72722",
+    "user": "kevin"
+}
+
+[2017-07-12 08:21:02]--[src_cgi/myfiles_cgi.c:548]--user = kevin, token = 318f180da81900fe5c6d039515c72722, start = 0, count = 1
+[2017-07-12 08:21:02]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'kevin' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2017-07-12 08:21:02]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"kevin",
+			"md5":	"e5c452a06e06da6edbdd9c0e27f9fe8a",
+			"time":	"2017-07-12 08:20:50",
+			"filename":	"a.png",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.1.22:80/group1/M00/00/00/wKgBFllmPlKAXmzEAADOHLnjxXg857.png",
+			"size":	52764,
+			"type":	"png"
+		}]
+}
+[2017-07-12 08:21:06]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2017-07-12 08:21:06]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "318f180da81900fe5c6d039515c72722",
+    "user": "kevin"
+}
+
+[2017-07-12 08:21:06]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2017-07-12 08:21:06]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2017-07-12 08:21:06]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "318f180da81900fe5c6d039515c72722",
+    "user": "kevin"
+}
+
+[2017-07-12 08:21:06]--[src_cgi/myfiles_cgi.c:548]--user = kevin, token = 318f180da81900fe5c6d039515c72722, start = 0, count = 1
+[2017-07-12 08:21:06]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'kevin' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2017-07-12 08:21:06]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"kevin",
+			"md5":	"e5c452a06e06da6edbdd9c0e27f9fe8a",
+			"time":	"2017-07-12 08:20:50",
+			"filename":	"a.png",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.1.22:80/group1/M00/00/00/wKgBFllmPlKAXmzEAADOHLnjxXg857.png",
+			"size":	52764,
+			"type":	"png"
+		}]
+}
+[2017-07-12 08:33:46]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2017-07-12 08:33:46]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "9198292c814ee30e1282a5659e9459a2",
+    "user": "kevin"
+}
+
+[2017-07-12 08:33:46]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2017-07-12 08:33:46]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2017-07-12 08:33:46]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "9198292c814ee30e1282a5659e9459a2",
+    "user": "kevin"
+}
+
+[2017-07-12 08:33:46]--[src_cgi/myfiles_cgi.c:548]--user = kevin, token = 9198292c814ee30e1282a5659e9459a2, start = 0, count = 1
+[2017-07-12 08:33:46]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'kevin' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2017-07-12 08:33:46]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"kevin",
+			"md5":	"e5c452a06e06da6edbdd9c0e27f9fe8a",
+			"time":	"2017-07-12 08:20:50",
+			"filename":	"a.png",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.1.22:80/group1/M00/00/00/wKgBFllmPlKAXmzEAADOHLnjxXg857.png",
+			"size":	52764,
+			"type":	"png"
+		}]
+}
+[2017-07-12 08:33:51]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2017-07-12 08:33:51]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "9198292c814ee30e1282a5659e9459a2",
+    "user": "kevin"
+}
+
+[2017-07-12 08:33:51]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2017-07-12 08:33:51]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2017-07-12 08:33:51]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "9198292c814ee30e1282a5659e9459a2",
+    "user": "kevin"
+}
+
+[2017-07-12 08:33:51]--[src_cgi/myfiles_cgi.c:548]--user = kevin, token = 9198292c814ee30e1282a5659e9459a2, start = 0, count = 1
+[2017-07-12 08:33:51]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'kevin' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2017-07-12 08:33:51]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"kevin",
+			"md5":	"e5c452a06e06da6edbdd9c0e27f9fe8a",
+			"time":	"2017-07-12 08:20:50",
+			"filename":	"a.png",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.1.22:80/group1/M00/00/00/wKgBFllmPlKAXmzEAADOHLnjxXg857.png",
+			"size":	52764,
+			"type":	"png"
+		}]
+}
+[2017-07-12 08:34:32]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2017-07-12 08:34:32]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "9198292c814ee30e1282a5659e9459a2",
+    "user": "kevin"
+}
+
+[2017-07-12 08:34:32]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2017-07-12 08:34:32]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2017-07-12 08:34:32]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "9198292c814ee30e1282a5659e9459a2",
+    "user": "kevin"
+}
+
+[2017-07-12 08:34:32]--[src_cgi/myfiles_cgi.c:548]--user = kevin, token = 9198292c814ee30e1282a5659e9459a2, start = 0, count = 1
+[2017-07-12 08:34:32]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'kevin' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2017-07-12 08:34:32]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"kevin",
+			"md5":	"1a7b4c1bab2a5b52ae8a507600c4c399",
+			"time":	"2017-07-12 08:34:11",
+			"filename":	"mmexport1480438987249.jpg",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.1.22:80/group1/M00/00/00/wKgBFllmQXOAYgKgAAIz3XySU6A510.jpg",
+			"size":	144349,
+			"type":	"jpg"
+		}]
+}
+[2017-07-12 08:38:50]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2017-07-12 08:38:50]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "6210aec6ba944334d77fa9873cc634f6",
+    "user": "kevin"
+}
+
+[2017-07-12 08:38:50]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2017-07-12 08:38:50]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2017-07-12 08:38:50]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "6210aec6ba944334d77fa9873cc634f6",
+    "user": "kevin"
+}
+
+[2017-07-12 08:38:50]--[src_cgi/myfiles_cgi.c:548]--user = kevin, token = 6210aec6ba944334d77fa9873cc634f6, start = 0, count = 1
+[2017-07-12 08:38:50]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'kevin' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2017-07-12 08:38:50]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"kevin",
+			"md5":	"1a7b4c1bab2a5b52ae8a507600c4c399",
+			"time":	"2017-07-12 08:34:11",
+			"filename":	"mmexport1480438987249.jpg",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.1.22:80/group1/M00/00/00/wKgBFllmQXOAYgKgAAIz3XySU6A510.jpg",
+			"size":	144349,
+			"type":	"jpg"
+		}]
+}
+[2017-07-12 08:39:40]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2017-07-12 08:39:40]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "6210aec6ba944334d77fa9873cc634f6",
+    "user": "kevin"
+}
+
+[2017-07-12 08:39:40]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2017-07-12 08:39:40]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2017-07-12 08:39:40]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "6210aec6ba944334d77fa9873cc634f6",
+    "user": "kevin"
+}
+
+[2017-07-12 08:39:40]--[src_cgi/myfiles_cgi.c:548]--user = kevin, token = 6210aec6ba944334d77fa9873cc634f6, start = 0, count = 1
+[2017-07-12 08:39:40]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'kevin' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2017-07-12 08:39:40]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"kevin",
+			"md5":	"e5c452a06e06da6edbdd9c0e27f9fe8a",
+			"time":	"2017-07-12 08:39:05",
+			"filename":	"a.png",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.1.22:80/group1/M00/00/00/wKgBFllmQpmAWvTYAADOHLnjxXg240.png",
+			"size":	52764,
+			"type":	"png"
+		}]
+}
+[2017-07-12 08:42:35]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2017-07-12 08:42:35]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "738b94aefce0bcd7febbc03a4b40bc5a",
+    "user": "kevin"
+}
+
+[2017-07-12 08:42:35]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2017-07-12 08:42:36]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2017-07-12 08:42:36]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "738b94aefce0bcd7febbc03a4b40bc5a",
+    "user": "kevin"
+}
+
+[2017-07-12 08:42:36]--[src_cgi/myfiles_cgi.c:548]--user = kevin, token = 738b94aefce0bcd7febbc03a4b40bc5a, start = 0, count = 1
+[2017-07-12 08:42:36]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'kevin' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2017-07-12 08:42:36]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"kevin",
+			"md5":	"e5c452a06e06da6edbdd9c0e27f9fe8a",
+			"time":	"2017-07-12 08:39:05",
+			"filename":	"a.png",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.1.22:80/group1/M00/00/00/wKgBFllmQpmAWvTYAADOHLnjxXg240.png",
+			"size":	52764,
+			"type":	"png"
+		}]
+}
+[2017-07-12 09:02:15]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2017-07-12 09:02:15]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "51cff473dac4f40b4994eb0cff7590bb",
+    "user": "kevin"
+}
+
+[2017-07-12 09:02:15]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2017-07-12 09:02:15]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2017-07-12 09:02:15]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "51cff473dac4f40b4994eb0cff7590bb",
+    "user": "kevin"
+}
+
+[2017-07-12 09:02:15]--[src_cgi/myfiles_cgi.c:548]--user = kevin, token = 51cff473dac4f40b4994eb0cff7590bb, start = 0, count = 1
+[2017-07-12 09:02:15]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'kevin' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2017-07-12 09:02:15]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"kevin",
+			"md5":	"e5c452a06e06da6edbdd9c0e27f9fe8a",
+			"time":	"2017-07-12 08:39:05",
+			"filename":	"a.png",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.1.22:80/group1/M00/00/00/wKgBFllmQpmAWvTYAADOHLnjxXg240.png",
+			"size":	52764,
+			"type":	"png"
+		}]
+}
+[2017-07-12 09:04:41]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2017-07-12 09:04:41]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "ea1ab7573e640e001af6375afbf4ab7f",
+    "user": "kevin"
+}
+
+[2017-07-12 09:04:41]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2017-07-12 09:04:41]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2017-07-12 09:04:41]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "ea1ab7573e640e001af6375afbf4ab7f",
+    "user": "kevin"
+}
+
+[2017-07-12 09:04:41]--[src_cgi/myfiles_cgi.c:548]--user = kevin, token = ea1ab7573e640e001af6375afbf4ab7f, start = 0, count = 1
+[2017-07-12 09:04:41]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'kevin' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2017-07-12 09:04:41]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"kevin",
+			"md5":	"e5c452a06e06da6edbdd9c0e27f9fe8a",
+			"time":	"2017-07-12 08:39:05",
+			"filename":	"a.png",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.1.22:80/group1/M00/00/00/wKgBFllmQpmAWvTYAADOHLnjxXg240.png",
+			"size":	52764,
+			"type":	"png"
+		}]
+}
+[2017-07-12 09:05:21]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2017-07-12 09:05:21]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "519d773e6389c774760a5ce844bbb172",
+    "user": "kevin"
+}
+
+[2017-07-12 09:05:21]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2017-07-12 09:05:21]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2017-07-12 09:05:21]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "519d773e6389c774760a5ce844bbb172",
+    "user": "kevin"
+}
+
+[2017-07-12 09:05:21]--[src_cgi/myfiles_cgi.c:548]--user = kevin, token = 519d773e6389c774760a5ce844bbb172, start = 0, count = 1
+[2017-07-12 09:05:21]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'kevin' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2017-07-12 09:05:21]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"kevin",
+			"md5":	"e5c452a06e06da6edbdd9c0e27f9fe8a",
+			"time":	"2017-07-12 08:39:05",
+			"filename":	"a.png",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.1.22:80/group1/M00/00/00/wKgBFllmQpmAWvTYAADOHLnjxXg240.png",
+			"size":	52764,
+			"type":	"png"
+		}]
+}
+[2017-07-12 09:07:36]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2017-07-12 09:07:36]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "80df4737ad448f7bf05f328cf1e79d78",
+    "user": "kevin"
+}
+
+[2017-07-12 09:07:36]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2017-07-12 09:07:36]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2017-07-12 09:07:36]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "80df4737ad448f7bf05f328cf1e79d78",
+    "user": "kevin"
+}
+
+[2017-07-12 09:07:36]--[src_cgi/myfiles_cgi.c:548]--user = kevin, token = 80df4737ad448f7bf05f328cf1e79d78, start = 0, count = 1
+[2017-07-12 09:07:36]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'kevin' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2017-07-12 09:07:36]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"kevin",
+			"md5":	"e5c452a06e06da6edbdd9c0e27f9fe8a",
+			"time":	"2017-07-12 08:39:05",
+			"filename":	"a.png",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.1.22:80/group1/M00/00/00/wKgBFllmQpmAWvTYAADOHLnjxXg240.png",
+			"size":	52764,
+			"type":	"png"
+		}]
+}
+[2017-07-12 20:14:16]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2017-07-12 20:14:16]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "7862d03365b91370583884b28f6eb44b",
+    "user": "kevin"
+}
+
+[2017-07-12 20:14:16]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2017-07-12 20:14:16]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2017-07-12 20:14:16]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "7862d03365b91370583884b28f6eb44b",
+    "user": "kevin"
+}
+
+[2017-07-12 20:14:16]--[src_cgi/myfiles_cgi.c:548]--user = kevin, token = 7862d03365b91370583884b28f6eb44b, start = 0, count = 1
+[2017-07-12 20:14:16]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'kevin' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2017-07-12 20:14:16]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"kevin",
+			"md5":	"e5c452a06e06da6edbdd9c0e27f9fe8a",
+			"time":	"2017-07-12 08:39:05",
+			"filename":	"a.png",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.1.22:80/group1/M00/00/00/wKgBFllmQpmAWvTYAADOHLnjxXg240.png",
+			"size":	52764,
+			"type":	"png"
+		}]
+}

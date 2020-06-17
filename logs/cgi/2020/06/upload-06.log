@@ -1,0 +1,5 @@
+[2020-06-06 10:56:10]--[src_cgi/upload_cgi.c:42]--mysql:[user=root,pwd=123456,database=yundisk][2020-06-06 10:59:12]--[src_cgi/upload_cgi.c:616]--tianyu成功上传[ui_buttongroup.h, 大小：9511, md5码：7526fcead4ef24036b5845f9b9e9ef9d]到本地
+[2020-06-06 10:59:12]--[src_cgi/upload_cgi.c:351]--get [group1/M00/00/00/wKiO717bBoCAergCAAAlJ47bpbQ12185.h] succ!
+[2020-06-06 10:59:12]--[src_cgi/upload_cgi.c:456]--file url is: http://192.168.142.239:80/group1/M00/00/00/wKiO717bBoCAergCAAAlJ47bpbQ12185.h
+[2020-06-06 10:59:12]--[src_cgi/upload_cgi.c:510]--insert into file_info (md5, file_id, url, size, type, count) values ('7526fcead4ef24036b5845f9b9e9ef9d', 'group1/M00/00/00/wKiO717bBoCAergCAAAlJ47bpbQ12185.h', 'http://192.168.142.239:80/group1/M00/00/00/wKiO717bBoCAergCAAAlJ47bpbQ12185.h', '9511', 'h', 1) 文件信息插入成功
+[2020-06-06 16:24:32]--[src_cgi/upload_cgi.c:42]--mysql:[user=root,pwd=123456,database=yundisk]

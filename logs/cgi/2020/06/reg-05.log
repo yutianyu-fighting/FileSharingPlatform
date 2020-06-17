@@ -1,0 +1,10 @@
+[2020-06-05 19:13:18]--[src_cgi/reg_cgi.c:236]--buf = {
+    "email": "1359@qq.com",
+    "firstPwd": "fb3336fca8851437f980e83045e75749",
+    "nickName": "2512",
+    "phone": "15268710368",
+    "userName": "tianyu"
+}
+
+[2020-06-05 19:13:18]--[src_cgi/reg_cgi.c:128]--mysql_user = root, mysql_pwd = 123456, mysql_db = yundisk
+[2020-06-05 19:13:18]--[src_cgi/reg_cgi.c:141]--user = tianyu, nick_name = 2512, pwd = fb3336fca8851437f980e83045e75749, tel = 15268710368, email = 1359@qq.com

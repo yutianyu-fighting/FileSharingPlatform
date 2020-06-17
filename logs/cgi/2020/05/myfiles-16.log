@@ -1,0 +1,278 @@
+[2020-05-16 16:41:45]--[src_cgi/myfiles_cgi.c:40]--mysql:[user=root,pwd=123456,database=yundisk][2020-05-16 16:51:25]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-05-16 16:51:25]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "c4251b453ae8aa1c06fa757b1e100416",
+    "user": "yutianyu"
+}
+
+[2020-05-16 16:51:25]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="yutianyu" 操作失败
+[2020-05-16 16:51:25]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2020-05-16 16:52:51]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-05-16 16:52:51]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "c4251b453ae8aa1c06fa757b1e100416",
+    "user": "yutianyu"
+}
+
+[2020-05-16 16:52:51]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2020-05-16 16:52:51]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2020-05-16 16:52:51]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "c4251b453ae8aa1c06fa757b1e100416",
+    "user": "yutianyu"
+}
+
+[2020-05-16 16:52:51]--[src_cgi/myfiles_cgi.c:548]--user = yutianyu, token = c4251b453ae8aa1c06fa757b1e100416, start = 0, count = 1
+[2020-05-16 16:52:51]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'yutianyu' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2020-05-16 16:52:51]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"yutianyu",
+			"md5":	"1752983da17f70758d1026415797da8c",
+			"time":	"2020-05-16 16:52:15",
+			"filename":	"echo.c",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.142.228:80/group1/M00/00/00/wKiO5F6_qb-AByvLAAAHT7NSqm066237.c",
+			"size":	1871,
+			"type":	"c"
+		}]
+}
+[2020-05-16 16:52:58]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-05-16 16:52:58]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "c4251b453ae8aa1c06fa757b1e100416",
+    "user": "yutianyu"
+}
+
+[2020-05-16 16:52:58]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2020-05-16 16:52:58]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2020-05-16 16:52:58]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "c4251b453ae8aa1c06fa757b1e100416",
+    "user": "yutianyu"
+}
+
+[2020-05-16 16:52:58]--[src_cgi/myfiles_cgi.c:548]--user = yutianyu, token = c4251b453ae8aa1c06fa757b1e100416, start = 0, count = 1
+[2020-05-16 16:52:58]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'yutianyu' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2020-05-16 16:52:58]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"yutianyu",
+			"md5":	"1752983da17f70758d1026415797da8c",
+			"time":	"2020-05-16 16:52:15",
+			"filename":	"echo.c",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.142.228:80/group1/M00/00/00/wKiO5F6_qb-AByvLAAAHT7NSqm066237.c",
+			"size":	1871,
+			"type":	"c"
+		}]
+}
+[2020-05-16 16:53:11]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-05-16 16:53:11]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "ffedc692d964f676dd3b3293b794f34e",
+    "user": "yutianyu"
+}
+
+[2020-05-16 16:53:11]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2020-05-16 16:53:11]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2020-05-16 16:53:11]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "ffedc692d964f676dd3b3293b794f34e",
+    "user": "yutianyu"
+}
+
+[2020-05-16 16:53:11]--[src_cgi/myfiles_cgi.c:548]--user = yutianyu, token = ffedc692d964f676dd3b3293b794f34e, start = 0, count = 1
+[2020-05-16 16:53:11]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'yutianyu' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2020-05-16 16:53:11]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"yutianyu",
+			"md5":	"1752983da17f70758d1026415797da8c",
+			"time":	"2020-05-16 16:52:15",
+			"filename":	"echo.c",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.142.228:80/group1/M00/00/00/wKiO5F6_qb-AByvLAAAHT7NSqm066237.c",
+			"size":	1871,
+			"type":	"c"
+		}]
+}
+[2020-05-16 16:53:25]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-05-16 16:53:25]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "a0ff06d2ca727cba0207c2ff6c59109b",
+    "user": "yutianyu"
+}
+
+[2020-05-16 16:53:25]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2020-05-16 16:53:25]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2020-05-16 16:53:25]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "a0ff06d2ca727cba0207c2ff6c59109b",
+    "user": "yutianyu"
+}
+
+[2020-05-16 16:53:25]--[src_cgi/myfiles_cgi.c:548]--user = yutianyu, token = a0ff06d2ca727cba0207c2ff6c59109b, start = 0, count = 1
+[2020-05-16 16:53:25]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'yutianyu' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2020-05-16 16:53:25]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"yutianyu",
+			"md5":	"1752983da17f70758d1026415797da8c",
+			"time":	"2020-05-16 16:52:15",
+			"filename":	"echo.c",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.142.228:80/group1/M00/00/00/wKiO5F6_qb-AByvLAAAHT7NSqm066237.c",
+			"size":	1871,
+			"type":	"c"
+		}]
+}
+[2020-05-16 16:53:39]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-05-16 16:53:39]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "a0ff06d2ca727cba0207c2ff6c59109b",
+    "user": "yutianyu"
+}
+
+[2020-05-16 16:53:39]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2020-05-16 16:53:39]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2020-05-16 16:53:39]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "a0ff06d2ca727cba0207c2ff6c59109b",
+    "user": "yutianyu"
+}
+
+[2020-05-16 16:53:39]--[src_cgi/myfiles_cgi.c:548]--user = yutianyu, token = a0ff06d2ca727cba0207c2ff6c59109b, start = 0, count = 1
+[2020-05-16 16:53:39]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'yutianyu' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2020-05-16 16:53:39]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"yutianyu",
+			"md5":	"1752983da17f70758d1026415797da8c",
+			"time":	"2020-05-16 16:52:15",
+			"filename":	"echo.c",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.142.228:80/group1/M00/00/00/wKiO5F6_qb-AByvLAAAHT7NSqm066237.c",
+			"size":	1871,
+			"type":	"c"
+		}]
+}
+[2020-05-16 16:54:07]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-05-16 16:54:07]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "a0ff06d2ca727cba0207c2ff6c59109b",
+    "user": "yutianyu"
+}
+
+[2020-05-16 16:54:07]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2020-05-16 16:54:07]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2020-05-16 16:54:07]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "a0ff06d2ca727cba0207c2ff6c59109b",
+    "user": "yutianyu"
+}
+
+[2020-05-16 16:54:07]--[src_cgi/myfiles_cgi.c:548]--user = yutianyu, token = a0ff06d2ca727cba0207c2ff6c59109b, start = 0, count = 1
+[2020-05-16 16:54:07]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'yutianyu' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2020-05-16 16:54:07]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"yutianyu",
+			"md5":	"1752983da17f70758d1026415797da8c",
+			"time":	"2020-05-16 16:52:15",
+			"filename":	"echo.c",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.142.228:80/group1/M00/00/00/wKiO5F6_qb-AByvLAAAHT7NSqm066237.c",
+			"size":	1871,
+			"type":	"c"
+		}]
+}
+[2020-05-16 16:54:11]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-05-16 16:54:11]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "a0ff06d2ca727cba0207c2ff6c59109b",
+    "user": "yutianyu"
+}
+
+[2020-05-16 16:54:11]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2020-05-16 16:54:11]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2020-05-16 16:54:11]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "a0ff06d2ca727cba0207c2ff6c59109b",
+    "user": "yutianyu"
+}
+
+[2020-05-16 16:54:11]--[src_cgi/myfiles_cgi.c:548]--user = yutianyu, token = a0ff06d2ca727cba0207c2ff6c59109b, start = 0, count = 1
+[2020-05-16 16:54:11]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'yutianyu' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2020-05-16 16:54:11]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"yutianyu",
+			"md5":	"1752983da17f70758d1026415797da8c",
+			"time":	"2020-05-16 16:52:15",
+			"filename":	"echo.c",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.142.228:80/group1/M00/00/00/wKiO5F6_qb-AByvLAAAHT7NSqm066237.c",
+			"size":	1871,
+			"type":	"c"
+		}]
+}
+[2020-05-16 21:38:20]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-05-16 21:38:20]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "12e05d4157fba3d6d12d2d408853daa0",
+    "user": "yutianyu"
+}
+
+[2020-05-16 21:38:20]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2020-05-16 21:38:20]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2020-05-16 21:38:20]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "12e05d4157fba3d6d12d2d408853daa0",
+    "user": "yutianyu"
+}
+
+[2020-05-16 21:38:20]--[src_cgi/myfiles_cgi.c:548]--user = yutianyu, token = 12e05d4157fba3d6d12d2d408853daa0, start = 0, count = 1
+[2020-05-16 21:38:20]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'yutianyu' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2020-05-16 21:38:20]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"yutianyu",
+			"md5":	"1752983da17f70758d1026415797da8c",
+			"time":	"2020-05-16 16:52:15",
+			"filename":	"echo.c",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.142.228:80/group1/M00/00/00/wKiO5F6_qb-AByvLAAAHT7NSqm066237.c",
+			"size":	1871,
+			"type":	"c"
+		}]
+}
+[2020-05-16 21:39:01]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-05-16 21:39:01]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "12e05d4157fba3d6d12d2d408853daa0",
+    "user": "yutianyu"
+}
+
+[2020-05-16 21:39:01]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2020-05-16 21:39:01]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2020-05-16 21:39:01]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "12e05d4157fba3d6d12d2d408853daa0",
+    "user": "yutianyu"
+}
+
+[2020-05-16 21:39:01]--[src_cgi/myfiles_cgi.c:548]--user = yutianyu, token = 12e05d4157fba3d6d12d2d408853daa0, start = 0, count = 1
+[2020-05-16 21:39:01]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'yutianyu' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2020-05-16 21:39:01]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"yutianyu",
+			"md5":	"1752983da17f70758d1026415797da8c",
+			"time":	"2020-05-16 16:52:15",
+			"filename":	"echo.c",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.142.228:80/group1/M00/00/00/wKiO5F6_qb-AByvLAAAHT7NSqm066237.c",
+			"size":	1871,
+			"type":	"c"
+		}]
+}

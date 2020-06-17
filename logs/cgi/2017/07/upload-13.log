@@ -1,0 +1,40 @@
+[2017-07-13 17:35:51]--[src_cgi/upload_cgi.c:42]--mysql:[user=root,pwd=root,database=cloud_disk][2017-07-13 17:41:00]--[src_cgi/upload_cgi.c:42]--mysql:[user=root,pwd=root,database=cloud_disk][2017-07-13 02:42:14]--[src_cgi/upload_cgi.c:616]--kevin成功上传[Penguins.jpg, 大小：777835, md5码：9d377b10ce778c4938b3c7e2c63a229a]到本地
+[2017-07-13 02:42:14]--[src_cgi/upload_cgi.c:351]--get [group1/M00/00/00/wKgBFllnQHaAfkYpAAvea_OGt2M232.jpg] succ!
+[2017-07-13 02:42:14]--[src_cgi/upload_cgi.c:456]--file url is: http://192.168.1.22:80/group1/M00/00/00/wKgBFllnQHaAfkYpAAvea_OGt2M232.jpg
+[2017-07-13 02:42:14]--[src_cgi/upload_cgi.c:510]--insert into file_info (md5, file_id, url, size, type, count) values ('9d377b10ce778c4938b3c7e2c63a229a', 'group1/M00/00/00/wKgBFllnQHaAfkYpAAvea_OGt2M232.jpg', 'http://192.168.1.22:80/group1/M00/00/00/wKgBFllnQHaAfkYpAAvea_OGt2M232.jpg', '777835', 'jpg', 1) 文件信息插入成功
+[2017-07-13 10:25:55]--[src_cgi/upload_cgi.c:616]--222成功上传[ui_loginwidget.h, 大小：17225, md5码：1a96ac5456b0d8e07c1880b27ad8b969]到本地
+[2017-07-13 10:25:55]--[src_cgi/upload_cgi.c:351]--get [group1/M00/00/00/wKgBFllnrSOALT-yAABDSVK02_g28167.h] succ!
+[2017-07-13 10:25:55]--[src_cgi/upload_cgi.c:456]--file url is: http://192.168.1.22:80/group1/M00/00/00/wKgBFllnrSOALT-yAABDSVK02_g28167.h
+[2017-07-13 10:25:55]--[src_cgi/upload_cgi.c:510]--insert into file_info (md5, file_id, url, size, type, count) values ('1a96ac5456b0d8e07c1880b27ad8b969', 'group1/M00/00/00/wKgBFllnrSOALT-yAABDSVK02_g28167.h', 'http://192.168.1.22:80/group1/M00/00/00/wKgBFllnrSOALT-yAABDSVK02_g28167.h', '17225', 'h', 1) 文件信息插入成功
+[2017-07-13 10:25:55]--[src_cgi/upload_cgi.c:616]--222成功上传[ui_mainwidget.h, 大小：3958, md5码：be940536b120f2f05bef74389042ff13]到本地
+[2017-07-13 10:25:55]--[src_cgi/upload_cgi.c:351]--get [group1/M00/00/00/wKgBFllnrSOAE-txAAAPdvAT9MU86776.h] succ!
+[2017-07-13 10:25:55]--[src_cgi/upload_cgi.c:456]--file url is: http://192.168.1.22:80/group1/M00/00/00/wKgBFllnrSOAE-txAAAPdvAT9MU86776.h
+[2017-07-13 10:25:55]--[src_cgi/upload_cgi.c:510]--insert into file_info (md5, file_id, url, size, type, count) values ('be940536b120f2f05bef74389042ff13', 'group1/M00/00/00/wKgBFllnrSOAE-txAAAPdvAT9MU86776.h', 'http://192.168.1.22:80/group1/M00/00/00/wKgBFllnrSOAE-txAAAPdvAT9MU86776.h', '3958', 'h', 1) 文件信息插入成功
+[2017-07-13 10:25:56]--[src_cgi/upload_cgi.c:616]--222成功上传[ui_mainwidgetbutton.h, 大小：8968, md5码：a0b8519bf29b46be7eed1b0163a13dbc]到本地
+[2017-07-13 10:25:56]--[src_cgi/upload_cgi.c:351]--get [group1/M00/00/00/wKgBFllnrSSAUJboAAAjCEWSRrQ18927.h] succ!
+[2017-07-13 10:25:56]--[src_cgi/upload_cgi.c:456]--file url is: http://192.168.1.22:80/group1/M00/00/00/wKgBFllnrSSAUJboAAAjCEWSRrQ18927.h
+[2017-07-13 10:25:56]--[src_cgi/upload_cgi.c:510]--insert into file_info (md5, file_id, url, size, type, count) values ('a0b8519bf29b46be7eed1b0163a13dbc', 'group1/M00/00/00/wKgBFllnrSSAUJboAAAjCEWSRrQ18927.h', 'http://192.168.1.22:80/group1/M00/00/00/wKgBFllnrSSAUJboAAAjCEWSRrQ18927.h', '8968', 'h', 1) 文件信息插入成功
+[2017-07-13 10:26:26]--[src_cgi/upload_cgi.c:616]--222成功上传[Hydrangeas.jpg, 大小：595284, md5码：bdf3bf1da3405725be763540d6601144]到本地
+[2017-07-13 10:26:26]--[src_cgi/upload_cgi.c:351]--get [group1/M00/00/00/wKgBFllnrUKAQ2gMAAkVVGMybN8017.jpg] succ!
+[2017-07-13 10:26:26]--[src_cgi/upload_cgi.c:456]--file url is: http://192.168.1.22:80/group1/M00/00/00/wKgBFllnrUKAQ2gMAAkVVGMybN8017.jpg
+[2017-07-13 10:26:26]--[src_cgi/upload_cgi.c:510]--insert into file_info (md5, file_id, url, size, type, count) values ('bdf3bf1da3405725be763540d6601144', 'group1/M00/00/00/wKgBFllnrUKAQ2gMAAkVVGMybN8017.jpg', 'http://192.168.1.22:80/group1/M00/00/00/wKgBFllnrUKAQ2gMAAkVVGMybN8017.jpg', '595284', 'jpg', 1) 文件信息插入成功
+[2017-07-13 10:40:01]--[src_cgi/upload_cgi.c:616]--kevin成功上传[Desert.jpg, 大小：845941, md5码：ba45c8f60456a672e003a875e469d0eb]到本地
+[2017-07-13 10:40:01]--[src_cgi/upload_cgi.c:351]--get [group1/M00/00/00/wKgBFllnsHGAG7NzAAzodQCbVVc189.jpg] succ!
+[2017-07-13 10:40:01]--[src_cgi/upload_cgi.c:456]--file url is: http://192.168.1.22:80/group1/M00/00/00/wKgBFllnsHGAG7NzAAzodQCbVVc189.jpg
+[2017-07-13 10:40:01]--[src_cgi/upload_cgi.c:510]--insert into file_info (md5, file_id, url, size, type, count) values ('ba45c8f60456a672e003a875e469d0eb', 'group1/M00/00/00/wKgBFllnsHGAG7NzAAzodQCbVVc189.jpg', 'http://192.168.1.22:80/group1/M00/00/00/wKgBFllnsHGAG7NzAAzodQCbVVc189.jpg', '845941', 'jpg', 1) 文件信息插入成功
+[2017-07-13 10:40:58]--[src_cgi/upload_cgi.c:616]--kevin成功上传[Chrysanthemum.jpg, 大小：879394, md5码：076e3caed758a1c18c91a0e9cae3368f]到本地
+[2017-07-13 10:40:58]--[src_cgi/upload_cgi.c:351]--get [group1/M00/00/00/wKgBFllnsKqAETniAA1rIuRd3Es197.jpg] succ!
+[2017-07-13 10:40:58]--[src_cgi/upload_cgi.c:456]--file url is: http://192.168.1.22:80/group1/M00/00/00/wKgBFllnsKqAETniAA1rIuRd3Es197.jpg
+[2017-07-13 10:40:58]--[src_cgi/upload_cgi.c:510]--insert into file_info (md5, file_id, url, size, type, count) values ('076e3caed758a1c18c91a0e9cae3368f', 'group1/M00/00/00/wKgBFllnsKqAETniAA1rIuRd3Es197.jpg', 'http://192.168.1.22:80/group1/M00/00/00/wKgBFllnsKqAETniAA1rIuRd3Es197.jpg', '879394', 'jpg', 1) 文件信息插入成功
+[2017-07-13 10:55:12]--[src_cgi/upload_cgi.c:616]--kevin成功上传[Tulips.jpg, 大小：620888, md5码：fafa5efeaf3cbe3b23b2748d13e629a1]到本地
+[2017-07-13 10:55:12]--[src_cgi/upload_cgi.c:351]--get [group1/M00/00/00/wKgBFllntACAMf2gAAl5WLU-YRY627.jpg] succ!
+[2017-07-13 10:55:12]--[src_cgi/upload_cgi.c:456]--file url is: http://192.168.1.22:80/group1/M00/00/00/wKgBFllntACAMf2gAAl5WLU-YRY627.jpg
+[2017-07-13 10:55:12]--[src_cgi/upload_cgi.c:510]--insert into file_info (md5, file_id, url, size, type, count) values ('fafa5efeaf3cbe3b23b2748d13e629a1', 'group1/M00/00/00/wKgBFllntACAMf2gAAl5WLU-YRY627.jpg', 'http://192.168.1.22:80/group1/M00/00/00/wKgBFllntACAMf2gAAl5WLU-YRY627.jpg', '620888', 'jpg', 1) 文件信息插入成功
+[2017-07-13 19:15:37]--[src_cgi/upload_cgi.c:616]--kevin成功上传[Jellyfish.jpg, 大小：775702, md5码：5a44c7ba5bbe4ec867233d67e4806848]到本地
+[2017-07-13 19:15:37]--[src_cgi/upload_cgi.c:351]--get [group1/M00/00/00/wKgBFlloKUmAMTuEAAvWFkcZHjA991.jpg] succ!
+[2017-07-13 19:15:37]--[src_cgi/upload_cgi.c:456]--file url is: http://192.168.1.22:80/group1/M00/00/00/wKgBFlloKUmAMTuEAAvWFkcZHjA991.jpg
+[2017-07-13 19:15:37]--[src_cgi/upload_cgi.c:510]--insert into file_info (md5, file_id, url, size, type, count) values ('5a44c7ba5bbe4ec867233d67e4806848', 'group1/M00/00/00/wKgBFlloKUmAMTuEAAvWFkcZHjA991.jpg', 'http://192.168.1.22:80/group1/M00/00/00/wKgBFlloKUmAMTuEAAvWFkcZHjA991.jpg', '775702', 'jpg', 1) 文件信息插入成功
+[2017-07-13 19:34:59]--[src_cgi/upload_cgi.c:616]--kevin成功上传[Lighthouse.jpg, 大小：561276, md5码：8969288f4245120e7c3870287cce0ff3]到本地
+[2017-07-13 19:34:59]--[src_cgi/upload_cgi.c:351]--get [group1/M00/00/00/wKgBFlloLdOAflK_AAiQfKHDaaQ133.jpg] succ!
+[2017-07-13 19:34:59]--[src_cgi/upload_cgi.c:456]--file url is: http://192.168.1.22:80/group1/M00/00/00/wKgBFlloLdOAflK_AAiQfKHDaaQ133.jpg
+[2017-07-13 19:34:59]--[src_cgi/upload_cgi.c:510]--insert into file_info (md5, file_id, url, size, type, count) values ('8969288f4245120e7c3870287cce0ff3', 'group1/M00/00/00/wKgBFlloLdOAflK_AAiQfKHDaaQ133.jpg', 'http://192.168.1.22:80/group1/M00/00/00/wKgBFlloLdOAflK_AAiQfKHDaaQ133.jpg', '561276', 'jpg', 1) 文件信息插入成功

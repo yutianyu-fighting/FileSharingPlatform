@@ -1,0 +1,10 @@
+[2020-05-16 16:41:45]--[src_cgi/dealfile_cgi.c:42]--mysql:[user=root,pwd=123456,database=yundisk][2020-05-16 16:41:45]--[src_cgi/dealfile_cgi.c:47]--redis:[ip=127.0.0.1,port=6379]
+[2020-05-16 16:53:42]--[src_cgi/dealfile_cgi.c:695]--cmd = share
+[2020-05-16 16:53:42]--[src_cgi/dealfile_cgi.c:727]--buf = {
+    "filename": "echo.c",
+    "md5": "1752983da17f70758d1026415797da8c",
+    "token": "a0ff06d2ca727cba0207c2ff6c59109b",
+    "user": "yutianyu"
+}
+
+[2020-05-16 16:53:42]--[src_cgi/dealfile_cgi.c:730]--user = yutianyu, token = a0ff06d2ca727cba0207c2ff6c59109b, md5 = 1752983da17f70758d1026415797da8c, filename = echo.c

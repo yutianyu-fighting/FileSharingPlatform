@@ -1,0 +1,94 @@
+[2020-06-05 18:59:29]--[src_cgi/dealfile_cgi.c:42]--mysql:[user=root,pwd=123456,database=yundisk][2020-06-05 18:59:29]--[src_cgi/dealfile_cgi.c:47]--redis:[ip=127.0.0.1,port=6379]
+[2020-06-05 19:06:07]--[src_cgi/dealfile_cgi.c:42]--mysql:[user=root,pwd=123456,database=yundisk][2020-06-05 19:06:07]--[src_cgi/dealfile_cgi.c:47]--redis:[ip=127.0.0.1,port=6379]
+[2020-06-05 19:08:10]--[src_cgi/dealfile_cgi.c:695]--cmd = del
+[2020-06-05 19:08:10]--[src_cgi/dealfile_cgi.c:727]--buf = {
+    "filename": "title_data.png",
+    "md5": "6bd1c9c32cc08b56a0540e93bce303c5",
+    "token": "3bfc4c74ef217737b00b47219654bd6a",
+    "user": "yutianyu"
+}
+
+[2020-06-05 19:08:10]--[src_cgi/dealfile_cgi.c:730]--user = yutianyu, token = 3bfc4c74ef217737b00b47219654bd6a, md5 = 6bd1c9c32cc08b56a0540e93bce303c5, filename = title_data.png
+[2020-06-05 19:08:13]--[src_cgi/dealfile_cgi.c:329]--remove_file_from_storage ret = 29440
+[2020-06-05 19:08:13]--[src_cgi/dealfile_cgi.c:552]--remove_file_from_storage err
+[2020-06-05 19:08:13]--[src_cgi/dealfile_cgi.c:695]--cmd = del
+[2020-06-05 19:08:13]--[src_cgi/dealfile_cgi.c:727]--buf = {
+    "filename": "title_data.png",
+    "md5": "6bd1c9c32cc08b56a0540e93bce303c5",
+    "token": "3bfc4c74ef217737b00b47219654bd6a",
+    "user": "yutianyu"
+}
+
+[2020-06-05 19:08:13]--[src_cgi/dealfile_cgi.c:730]--user = yutianyu, token = 3bfc4c74ef217737b00b47219654bd6a, md5 = 6bd1c9c32cc08b56a0540e93bce303c5, filename = title_data.png
+[2020-06-05 19:08:13]--[src_cgi/dealfile_cgi.c:513]--select count from file_info where md5 = '6bd1c9c32cc08b56a0540e93bce303c5' 操作失败
+[2020-06-05 19:08:13]--[src_cgi/dealfile_cgi.c:695]--cmd = del
+[2020-06-05 19:08:13]--[src_cgi/dealfile_cgi.c:727]--buf = {
+    "filename": "title_data.png",
+    "md5": "6bd1c9c32cc08b56a0540e93bce303c5",
+    "token": "3bfc4c74ef217737b00b47219654bd6a",
+    "user": "yutianyu"
+}
+
+[2020-06-05 19:08:13]--[src_cgi/dealfile_cgi.c:730]--user = yutianyu, token = 3bfc4c74ef217737b00b47219654bd6a, md5 = 6bd1c9c32cc08b56a0540e93bce303c5, filename = title_data.png
+[2020-06-05 19:08:13]--[src_cgi/dealfile_cgi.c:513]--select count from file_info where md5 = '6bd1c9c32cc08b56a0540e93bce303c5' 操作失败
+[2020-06-05 19:08:18]--[src_cgi/dealfile_cgi.c:695]--cmd = del
+[2020-06-05 19:08:18]--[src_cgi/dealfile_cgi.c:727]--buf = {
+    "filename": "tile_hot.png",
+    "md5": "bae488ee63cef72efb6a3f1f311b3743",
+    "token": "3bfc4c74ef217737b00b47219654bd6a",
+    "user": "yutianyu"
+}
+
+[2020-06-05 19:08:18]--[src_cgi/dealfile_cgi.c:730]--user = yutianyu, token = 3bfc4c74ef217737b00b47219654bd6a, md5 = bae488ee63cef72efb6a3f1f311b3743, filename = tile_hot.png
+[2020-06-05 19:08:21]--[src_cgi/dealfile_cgi.c:329]--remove_file_from_storage ret = 29440
+[2020-06-05 19:08:21]--[src_cgi/dealfile_cgi.c:552]--remove_file_from_storage err
+[2020-06-05 19:08:25]--[src_cgi/dealfile_cgi.c:695]--cmd = del
+[2020-06-05 19:08:25]--[src_cgi/dealfile_cgi.c:727]--buf = {
+    "filename": "echo.c",
+    "md5": "1752983da17f70758d1026415797da8c",
+    "token": "3bfc4c74ef217737b00b47219654bd6a",
+    "user": "yutianyu"
+}
+
+[2020-06-05 19:08:25]--[src_cgi/dealfile_cgi.c:730]--user = yutianyu, token = 3bfc4c74ef217737b00b47219654bd6a, md5 = 1752983da17f70758d1026415797da8c, filename = echo.c
+[2020-06-05 19:08:28]--[src_cgi/dealfile_cgi.c:329]--remove_file_from_storage ret = 29440
+[2020-06-05 19:08:28]--[src_cgi/dealfile_cgi.c:552]--remove_file_from_storage err
+[2020-06-05 19:35:17]--[src_cgi/dealfile_cgi.c:695]--cmd = del
+[2020-06-05 19:35:17]--[src_cgi/dealfile_cgi.c:727]--buf = {
+    "filename": "ui_login.h",
+    "md5": "e14db81d2742df2566067f9215db1015",
+    "token": "3d50d5fe95462707b2acdedd430d199c",
+    "user": "tianyu"
+}
+
+[2020-06-05 19:35:17]--[src_cgi/dealfile_cgi.c:730]--user = tianyu, token = 3d50d5fe95462707b2acdedd430d199c, md5 = e14db81d2742df2566067f9215db1015, filename = ui_login.h
+[2020-06-05 19:35:17]--[src_cgi/dealfile_cgi.c:329]--remove_file_from_storage ret = 0
+[2020-06-05 20:37:06]--[src_cgi/dealfile_cgi.c:695]--cmd = share
+[2020-06-05 20:37:06]--[src_cgi/dealfile_cgi.c:727]--buf = {
+    "filename": "ui_buttongroup.h",
+    "md5": "7526fcead4ef24036b5845f9b9e9ef9d",
+    "token": "cd642ed7407a01a564c2d6c01eb3aa04",
+    "user": "tianyu"
+}
+
+[2020-06-05 20:37:06]--[src_cgi/dealfile_cgi.c:730]--user = tianyu, token = cd642ed7407a01a564c2d6c01eb3aa04, md5 = 7526fcead4ef24036b5845f9b9e9ef9d, filename = ui_buttongroup.h
+[2020-06-05 20:37:28]--[src_cgi/dealfile_cgi.c:695]--cmd = del
+[2020-06-05 20:37:28]--[src_cgi/dealfile_cgi.c:727]--buf = {
+    "filename": "ui_buttongroup.h",
+    "md5": "7526fcead4ef24036b5845f9b9e9ef9d",
+    "token": "cd642ed7407a01a564c2d6c01eb3aa04",
+    "user": "tianyu"
+}
+
+[2020-06-05 20:37:28]--[src_cgi/dealfile_cgi.c:730]--user = tianyu, token = cd642ed7407a01a564c2d6c01eb3aa04, md5 = 7526fcead4ef24036b5845f9b9e9ef9d, filename = ui_buttongroup.h
+[2020-06-05 20:37:28]--[src_cgi/dealfile_cgi.c:329]--remove_file_from_storage ret = 0
+[2020-06-05 20:53:51]--[src_cgi/dealfile_cgi.c:695]--cmd = del
+[2020-06-05 20:53:51]--[src_cgi/dealfile_cgi.c:727]--buf = {
+    "filename": "1.docx",
+    "md5": "d41d8cd98f00b204e9800998ecf8427e",
+    "token": "e2b3522e6f776d72aa11c46e4bac387d",
+    "user": "tianyu"
+}
+
+[2020-06-05 20:53:51]--[src_cgi/dealfile_cgi.c:730]--user = tianyu, token = e2b3522e6f776d72aa11c46e4bac387d, md5 = d41d8cd98f00b204e9800998ecf8427e, filename = 1.docx
+[2020-06-05 20:53:51]--[src_cgi/dealfile_cgi.c:329]--remove_file_from_storage ret = 0

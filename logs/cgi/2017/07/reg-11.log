@@ -1,0 +1,10 @@
+[2017-07-11 11:23:28]--[src_cgi/reg_cgi.c:236]--buf = {
+    "email": "222",
+    "firstPwd": "bcbe3365e6ac95ea2c0343a2395834dd",
+    "nickName": "222",
+    "phone": "222",
+    "userName": "222"
+}
+
+[2017-07-11 11:23:28]--[src_cgi/reg_cgi.c:128]--mysql_user = root, mysql_pwd = root, mysql_db = cloud_disk
+[2017-07-11 11:23:28]--[src_cgi/reg_cgi.c:141]--user = 222, nick_name = 222, pwd = bcbe3365e6ac95ea2c0343a2395834dd, tel = 222, email = 222

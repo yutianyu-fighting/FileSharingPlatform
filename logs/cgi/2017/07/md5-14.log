@@ -1,0 +1,71 @@
+[2017-07-14 06:41:50]--[src_cgi/md5_cgi.c:339]--buf = {
+    "fileName": "Chrysanthemum.jpg",
+    "md5": "076e3caed758a1c18c91a0e9cae3368f",
+    "token": "de3a92b50d40f3a99058669cabad62c4",
+    "user": "kevin"
+}
+
+[2017-07-14 06:41:50]--[src_cgi/md5_cgi.c:361]--user = kevin, token = de3a92b50d40f3a99058669cabad62c4, md5 = 076e3caed758a1c18c91a0e9cae3368f, filename = Chrysanthemum.jpg
+[2017-07-14 06:41:50]--[src_cgi/md5_cgi.c:184]--kevin[filename:Chrysanthemum.jpg, md5:076e3caed758a1c18c91a0e9cae3368f]已存在
+[2017-07-14 06:41:50]--[src_cgi/md5_cgi.c:339]--buf = {
+    "fileName": "Desert.jpg",
+    "md5": "ba45c8f60456a672e003a875e469d0eb",
+    "token": "de3a92b50d40f3a99058669cabad62c4",
+    "user": "kevin"
+}
+
+[2017-07-14 06:41:50]--[src_cgi/md5_cgi.c:361]--user = kevin, token = de3a92b50d40f3a99058669cabad62c4, md5 = ba45c8f60456a672e003a875e469d0eb, filename = Desert.jpg
+[2017-07-14 06:41:50]--[src_cgi/md5_cgi.c:184]--kevin[filename:Desert.jpg, md5:ba45c8f60456a672e003a875e469d0eb]已存在
+[2017-07-14 06:41:50]--[src_cgi/md5_cgi.c:339]--buf = {
+    "fileName": "Hydrangeas.jpg",
+    "md5": "bdf3bf1da3405725be763540d6601144",
+    "token": "de3a92b50d40f3a99058669cabad62c4",
+    "user": "kevin"
+}
+
+[2017-07-14 06:41:50]--[src_cgi/md5_cgi.c:361]--user = kevin, token = de3a92b50d40f3a99058669cabad62c4, md5 = bdf3bf1da3405725be763540d6601144, filename = Hydrangeas.jpg
+[2017-07-14 06:41:51]--[src_cgi/md5_cgi.c:339]--buf = {
+    "fileName": "Jellyfish.jpg",
+    "md5": "5a44c7ba5bbe4ec867233d67e4806848",
+    "token": "de3a92b50d40f3a99058669cabad62c4",
+    "user": "kevin"
+}
+
+[2017-07-14 06:41:51]--[src_cgi/md5_cgi.c:361]--user = kevin, token = de3a92b50d40f3a99058669cabad62c4, md5 = 5a44c7ba5bbe4ec867233d67e4806848, filename = Jellyfish.jpg
+[2017-07-14 06:41:51]--[src_cgi/md5_cgi.c:184]--kevin[filename:Jellyfish.jpg, md5:5a44c7ba5bbe4ec867233d67e4806848]已存在
+[2017-07-14 06:41:51]--[src_cgi/md5_cgi.c:339]--buf = {
+    "fileName": "Koala.jpg",
+    "md5": "2b04df3ecc1d94afddff082d139c6f15",
+    "token": "de3a92b50d40f3a99058669cabad62c4",
+    "user": "kevin"
+}
+
+[2017-07-14 06:41:51]--[src_cgi/md5_cgi.c:361]--user = kevin, token = de3a92b50d40f3a99058669cabad62c4, md5 = 2b04df3ecc1d94afddff082d139c6f15, filename = Koala.jpg
+[2017-07-14 06:41:52]--[src_cgi/md5_cgi.c:339]--buf = {
+    "fileName": "Lighthouse.jpg",
+    "md5": "8969288f4245120e7c3870287cce0ff3",
+    "token": "de3a92b50d40f3a99058669cabad62c4",
+    "user": "kevin"
+}
+
+[2017-07-14 06:41:52]--[src_cgi/md5_cgi.c:361]--user = kevin, token = de3a92b50d40f3a99058669cabad62c4, md5 = 8969288f4245120e7c3870287cce0ff3, filename = Lighthouse.jpg
+[2017-07-14 06:41:52]--[src_cgi/md5_cgi.c:184]--kevin[filename:Lighthouse.jpg, md5:8969288f4245120e7c3870287cce0ff3]已存在
+[2017-07-14 06:41:53]--[src_cgi/md5_cgi.c:339]--buf = {
+    "fileName": "Penguins.jpg",
+    "md5": "9d377b10ce778c4938b3c7e2c63a229a",
+    "token": "de3a92b50d40f3a99058669cabad62c4",
+    "user": "kevin"
+}
+
+[2017-07-14 06:41:53]--[src_cgi/md5_cgi.c:361]--user = kevin, token = de3a92b50d40f3a99058669cabad62c4, md5 = 9d377b10ce778c4938b3c7e2c63a229a, filename = Penguins.jpg
+[2017-07-14 06:41:53]--[src_cgi/md5_cgi.c:184]--kevin[filename:Penguins.jpg, md5:9d377b10ce778c4938b3c7e2c63a229a]已存在
+[2017-07-14 06:41:53]--[src_cgi/md5_cgi.c:339]--buf = {
+    "fileName": "Tulips.jpg",
+    "md5": "fafa5efeaf3cbe3b23b2748d13e629a1",
+    "token": "de3a92b50d40f3a99058669cabad62c4",
+    "user": "kevin"
+}
+
+[2017-07-14 06:41:53]--[src_cgi/md5_cgi.c:361]--user = kevin, token = de3a92b50d40f3a99058669cabad62c4, md5 = fafa5efeaf3cbe3b23b2748d13e629a1, filename = Tulips.jpg
+[2017-07-14 06:41:53]--[src_cgi/md5_cgi.c:184]--kevin[filename:Tulips.jpg, md5:fafa5efeaf3cbe3b23b2748d13e629a1]已存在
+[2017-07-14 23:13:32]--[src_cgi/md5_cgi.c:40]--mysql:[user=root,pwd=root,database=cloud_disk][2017-07-14 23:14:40]--[src_cgi/md5_cgi.c:40]--mysql:[user=root,pwd=root,database=cloud_disk]

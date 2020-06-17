@@ -1,0 +1,33 @@
+[2017-07-14 08:55:13]--[src_cgi/reg_cgi.c:236]--buf = {
+    "email": "abc@qq.com",
+    "firstPwd": "e10adc3949ba59abbe56e057f20f883e",
+    "nickName": "kevin",
+    "phone": "11111111111",
+    "userName": "kevin"
+}
+
+[2017-07-14 08:55:13]--[src_cgi/reg_cgi.c:128]--mysql_user = root, mysql_pwd = root, mysql_db = cloud_disk
+[2017-07-14 08:55:13]--[src_cgi/reg_cgi.c:141]--user = kevin, nick_name = kevin, pwd = e10adc3949ba59abbe56e057f20f883e, tel = 11111111111, email = abc@qq.com
+[2017-07-14 08:55:13]--[src_cgi/reg_cgi.c:165]--【(null)】该用户已存在
+[2017-07-14 08:55:46]--[src_cgi/reg_cgi.c:236]--buf = {
+    "email": "a@q.com",
+    "firstPwd": "e10adc3949ba59abbe56e057f20f883e",
+    "nickName": "kevin",
+    "phone": "11111111111",
+    "userName": "kevin"
+}
+
+[2017-07-14 08:55:46]--[src_cgi/reg_cgi.c:128]--mysql_user = root, mysql_pwd = root, mysql_db = cloud_disk
+[2017-07-14 08:55:46]--[src_cgi/reg_cgi.c:141]--user = kevin, nick_name = kevin, pwd = e10adc3949ba59abbe56e057f20f883e, tel = 11111111111, email = a@q.com
+[2017-07-14 08:55:46]--[src_cgi/reg_cgi.c:165]--【(null)】该用户已存在
+[2017-07-14 08:58:47]--[src_cgi/reg_cgi.c:236]--buf = {
+    "email": "1.a@s.b.com",
+    "firstPwd": "e10adc3949ba59abbe56e057f20f883e",
+    "nickName": "kevin",
+    "phone": "11111111111",
+    "userName": "kevin"
+}
+
+[2017-07-14 08:58:47]--[src_cgi/reg_cgi.c:128]--mysql_user = root, mysql_pwd = root, mysql_db = cloud_disk
+[2017-07-14 08:58:47]--[src_cgi/reg_cgi.c:141]--user = kevin, nick_name = kevin, pwd = e10adc3949ba59abbe56e057f20f883e, tel = 11111111111, email = 1.a@s.b.com
+[2017-07-14 08:58:47]--[src_cgi/reg_cgi.c:165]--【(null)】该用户已存在

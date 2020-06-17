@@ -1,0 +1,1 @@
+[2020-06-09 10:42:06]--[src_cgi/dealsharefile_cgi.c:42]--mysql:[user=root,pwd=123456,database=yundisk][2020-06-09 10:42:06]--[src_cgi/dealsharefile_cgi.c:47]--redis:[ip=127.0.0.1,port=6379]

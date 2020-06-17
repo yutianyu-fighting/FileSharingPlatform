@@ -1,0 +1,4 @@
+[2020-05-16 16:41:45]--[src_cgi/upload_cgi.c:42]--mysql:[user=root,pwd=123456,database=yundisk][2020-05-16 16:52:14]--[src_cgi/upload_cgi.c:616]--yutianyu成功上传[echo.c, 大小：1871, md5码：1752983da17f70758d1026415797da8c]到本地
+[2020-05-16 16:52:15]--[src_cgi/upload_cgi.c:351]--get [group1/M00/00/00/wKiO5F6_qb-AByvLAAAHT7NSqm066237.c] succ!
+[2020-05-16 16:52:15]--[src_cgi/upload_cgi.c:456]--file url is: http://192.168.142.228:80/group1/M00/00/00/wKiO5F6_qb-AByvLAAAHT7NSqm066237.c
+[2020-05-16 16:52:15]--[src_cgi/upload_cgi.c:510]--insert into file_info (md5, file_id, url, size, type, count) values ('1752983da17f70758d1026415797da8c', 'group1/M00/00/00/wKiO5F6_qb-AByvLAAAHT7NSqm066237.c', 'http://192.168.142.228:80/group1/M00/00/00/wKiO5F6_qb-AByvLAAAHT7NSqm066237.c', '1871', 'c', 1) 文件信息插入成功

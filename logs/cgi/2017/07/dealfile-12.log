@@ -1,0 +1,50 @@
+[2017-07-12 08:20:36]--[src_cgi/dealfile_cgi.c:695]--cmd = del
+[2017-07-12 08:20:36]--[src_cgi/dealfile_cgi.c:727]--buf = {
+    "filename": "con_and_par.jpg",
+    "md5": "674f0d37fca4fac1bd2df28a2b78e633",
+    "token": "318f180da81900fe5c6d039515c72722",
+    "user": "kevin"
+}
+
+[2017-07-12 08:20:36]--[src_cgi/dealfile_cgi.c:730]--user = kevin, token = 318f180da81900fe5c6d039515c72722, md5 = 674f0d37fca4fac1bd2df28a2b78e633, filename = con_and_par.jpg
+[2017-07-12 08:20:36]--[src_cgi/dealfile_cgi.c:329]--remove_file_from_storage ret = 0
+[2017-07-12 08:20:40]--[src_cgi/dealfile_cgi.c:695]--cmd = del
+[2017-07-12 08:20:40]--[src_cgi/dealfile_cgi.c:727]--buf = {
+    "filename": "system-image.png",
+    "md5": "25a547f3d8a384e60c1ab4e9ee3f9e46",
+    "token": "318f180da81900fe5c6d039515c72722",
+    "user": "kevin"
+}
+
+[2017-07-12 08:20:40]--[src_cgi/dealfile_cgi.c:730]--user = kevin, token = 318f180da81900fe5c6d039515c72722, md5 = 25a547f3d8a384e60c1ab4e9ee3f9e46, filename = system-image.png
+[2017-07-12 08:20:40]--[src_cgi/dealfile_cgi.c:329]--remove_file_from_storage ret = 0
+[2017-07-12 08:20:44]--[src_cgi/dealfile_cgi.c:695]--cmd = del
+[2017-07-12 08:20:44]--[src_cgi/dealfile_cgi.c:727]--buf = {
+    "filename": "捕获.PNG",
+    "md5": "203da119e80c78f4516ace477c54d985",
+    "token": "318f180da81900fe5c6d039515c72722",
+    "user": "kevin"
+}
+
+[2017-07-12 08:20:44]--[src_cgi/dealfile_cgi.c:730]--user = kevin, token = 318f180da81900fe5c6d039515c72722, md5 = 203da119e80c78f4516ace477c54d985, filename = 捕获.PNG
+[2017-07-12 08:20:44]--[src_cgi/dealfile_cgi.c:329]--remove_file_from_storage ret = 0
+[2017-07-12 08:33:55]--[src_cgi/dealfile_cgi.c:695]--cmd = del
+[2017-07-12 08:33:55]--[src_cgi/dealfile_cgi.c:727]--buf = {
+    "filename": "a.png",
+    "md5": "e5c452a06e06da6edbdd9c0e27f9fe8a",
+    "token": "9198292c814ee30e1282a5659e9459a2",
+    "user": "kevin"
+}
+
+[2017-07-12 08:33:55]--[src_cgi/dealfile_cgi.c:730]--user = kevin, token = 9198292c814ee30e1282a5659e9459a2, md5 = e5c452a06e06da6edbdd9c0e27f9fe8a, filename = a.png
+[2017-07-12 08:33:55]--[src_cgi/dealfile_cgi.c:329]--remove_file_from_storage ret = 0
+[2017-07-12 08:38:56]--[src_cgi/dealfile_cgi.c:695]--cmd = del
+[2017-07-12 08:38:56]--[src_cgi/dealfile_cgi.c:727]--buf = {
+    "filename": "mmexport1480438987249.jpg",
+    "md5": "1a7b4c1bab2a5b52ae8a507600c4c399",
+    "token": "6210aec6ba944334d77fa9873cc634f6",
+    "user": "kevin"
+}
+
+[2017-07-12 08:38:56]--[src_cgi/dealfile_cgi.c:730]--user = kevin, token = 6210aec6ba944334d77fa9873cc634f6, md5 = 1a7b4c1bab2a5b52ae8a507600c4c399, filename = mmexport1480438987249.jpg
+[2017-07-12 08:38:56]--[src_cgi/dealfile_cgi.c:329]--remove_file_from_storage ret = 0

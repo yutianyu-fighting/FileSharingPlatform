@@ -1,0 +1,18 @@
+[2020-06-05 18:59:29]--[src_cgi/upload_cgi.c:42]--mysql:[user=root,pwd=123456,database=yundisk][2020-06-05 19:06:07]--[src_cgi/upload_cgi.c:42]--mysql:[user=root,pwd=123456,database=yundisk][2020-06-05 19:07:40]--[src_cgi/upload_cgi.c:616]--yutianyu成功上传[ui_buttongroup.h, 大小：9512, md5码：c2058ebd5460d60c757e0be6f45f28d8]到本地
+[2020-06-05 19:07:43]--[src_cgi/upload_cgi.c:346]--[upload FAILED!]
+[2020-06-05 19:07:55]--[src_cgi/upload_cgi.c:616]--yutianyu成功上传[ui_sharelist.h, 大小：1627, md5码：53337d2e70212a8fe27ca69e923d048d]到本地
+[2020-06-05 19:07:58]--[src_cgi/upload_cgi.c:346]--[upload FAILED!]
+[2020-06-05 19:13:51]--[src_cgi/upload_cgi.c:616]--tianyu成功上传[C基础.doc, 大小：586240, md5码：9f6961a01b43188d33c44cdb8302a383]到本地
+[2020-06-05 19:13:55]--[src_cgi/upload_cgi.c:346]--[upload FAILED!]
+[2020-06-05 19:35:02]--[src_cgi/upload_cgi.c:616]--tianyu成功上传[ui_login.h, 大小：25701, md5码：e14db81d2742df2566067f9215db1015]到本地
+[2020-06-05 19:35:02]--[src_cgi/upload_cgi.c:351]--get [group1/M00/00/00/wKiO717aLeaAJxJTAABkZepxUA090959.h] succ!
+[2020-06-05 19:35:02]--[src_cgi/upload_cgi.c:456]--file url is: http://192.168.142.239:80/group1/M00/00/00/wKiO717aLeaAJxJTAABkZepxUA090959.h
+[2020-06-05 19:35:02]--[src_cgi/upload_cgi.c:510]--insert into file_info (md5, file_id, url, size, type, count) values ('e14db81d2742df2566067f9215db1015', 'group1/M00/00/00/wKiO717aLeaAJxJTAABkZepxUA090959.h', 'http://192.168.142.239:80/group1/M00/00/00/wKiO717aLeaAJxJTAABkZepxUA090959.h', '25701', 'h', 1) 文件信息插入成功
+[2020-06-05 20:37:00]--[src_cgi/upload_cgi.c:616]--tianyu成功上传[ui_buttongroup.h, 大小：9511, md5码：7526fcead4ef24036b5845f9b9e9ef9d]到本地
+[2020-06-05 20:37:00]--[src_cgi/upload_cgi.c:351]--get [group1/M00/00/00/wKiO717aPGyAT8E4AAAlJ47bpbQ44228.h] succ!
+[2020-06-05 20:37:00]--[src_cgi/upload_cgi.c:456]--file url is: http://192.168.142.239:80/group1/M00/00/00/wKiO717aPGyAT8E4AAAlJ47bpbQ44228.h
+[2020-06-05 20:37:00]--[src_cgi/upload_cgi.c:510]--insert into file_info (md5, file_id, url, size, type, count) values ('7526fcead4ef24036b5845f9b9e9ef9d', 'group1/M00/00/00/wKiO717aPGyAT8E4AAAlJ47bpbQ44228.h', 'http://192.168.142.239:80/group1/M00/00/00/wKiO717aPGyAT8E4AAAlJ47bpbQ44228.h', '9511', 'h', 1) 文件信息插入成功
+[2020-06-05 20:53:46]--[src_cgi/upload_cgi.c:616]--tianyu成功上传[1.docx, 大小：0, md5码：d41d8cd98f00b204e9800998ecf8427e]到本地
+[2020-06-05 20:53:46]--[src_cgi/upload_cgi.c:351]--get [group1/M00/00/00/wKiO717aQFqANc9bAAAAAAAAAAA95.docx] succ!
+[2020-06-05 20:53:46]--[src_cgi/upload_cgi.c:456]--file url is: http://192.168.142.239:80/group1/M00/00/00/wKiO717aQFqANc9bAAAAAAAAAAA95.docx
+[2020-06-05 20:53:46]--[src_cgi/upload_cgi.c:510]--insert into file_info (md5, file_id, url, size, type, count) values ('d41d8cd98f00b204e9800998ecf8427e', 'group1/M00/00/00/wKiO717aQFqANc9bAAAAAAAAAAA95.docx', 'http://192.168.142.239:80/group1/M00/00/00/wKiO717aQFqANc9bAAAAAAAAAAA95.docx', '0', 'docx', 1) 文件信息插入成功

@@ -1,0 +1,12 @@
+[2020-05-18 17:22:51]--[src_cgi/dealfile_cgi.c:42]--mysql:[user=root,pwd=123456,database=yundisk][2020-05-18 17:22:51]--[src_cgi/dealfile_cgi.c:47]--redis:[ip=127.0.0.1,port=6379]
+[2020-05-18 17:25:20]--[src_cgi/dealfile_cgi.c:695]--cmd = share
+[2020-05-18 17:25:20]--[src_cgi/dealfile_cgi.c:727]--buf = {
+    "filename": "tile_file.png",
+    "md5": "1f3fd001e64d37e63f36273b44e6a5f5",
+    "token": "ebe562109e2626d4a7a2289a04d181de",
+    "user": "yutianyu"
+}
+
+[2020-05-18 17:25:20]--[src_cgi/dealfile_cgi.c:730]--user = yutianyu, token = ebe562109e2626d4a7a2289a04d181de, md5 = 1f3fd001e64d37e63f36273b44e6a5f5, filename = tile_file.png
+[2020-05-18 20:51:36]--[src_cgi/dealfile_cgi.c:42]--mysql:[user=root,pwd=123456,database=yundisk][2020-05-18 20:51:36]--[src_cgi/dealfile_cgi.c:47]--redis:[ip=127.0.0.1,port=6379]
+[2020-05-18 21:35:58]--[src_cgi/dealfile_cgi.c:42]--mysql:[user=root,pwd=123456,database=yundisk][2020-05-18 21:35:58]--[src_cgi/dealfile_cgi.c:47]--redis:[ip=127.0.0.1,port=6379]

@@ -1,0 +1,8 @@
+[2020-05-16 16:41:45]--[src_cgi/md5_cgi.c:40]--mysql:[user=root,pwd=123456,database=yundisk][2020-05-16 16:52:14]--[src_cgi/md5_cgi.c:339]--buf = {
+    "fileName": "echo.c",
+    "md5": "1752983da17f70758d1026415797da8c",
+    "token": "c4251b453ae8aa1c06fa757b1e100416",
+    "user": "yutianyu"
+}
+
+[2020-05-16 16:52:14]--[src_cgi/md5_cgi.c:361]--user = yutianyu, token = c4251b453ae8aa1c06fa757b1e100416, md5 = 1752983da17f70758d1026415797da8c, filename = echo.c

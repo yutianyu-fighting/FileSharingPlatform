@@ -1,0 +1,160 @@
+[2017-07-11 11:28:03]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2017-07-11 11:28:03]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "0950125f6e8883cb401c32574a93ce50",
+    "user": "222"
+}
+
+[2017-07-11 11:28:03]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="222" 操作失败
+[2017-07-11 11:28:03]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2017-07-11 16:51:12]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2017-07-11 16:51:12]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "c350fd2304e112b07f7307d1a92bfaa0",
+    "user": "kevin"
+}
+
+[2017-07-11 16:51:12]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="kevin" 操作失败
+[2017-07-11 16:51:12]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2017-07-11 16:51:16]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2017-07-11 16:51:16]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "c350fd2304e112b07f7307d1a92bfaa0",
+    "user": "kevin"
+}
+
+[2017-07-11 16:51:16]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="kevin" 操作失败
+[2017-07-11 16:51:16]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2017-07-11 17:00:25]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2017-07-11 17:00:25]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "0be64f0b6faed1e32553638db9c1bf29",
+    "user": "222"
+}
+
+[2017-07-11 17:00:25]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="222" 操作失败
+[2017-07-11 17:00:25]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2017-07-11 17:00:40]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2017-07-11 17:00:40]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "0be64f0b6faed1e32553638db9c1bf29",
+    "user": "222"
+}
+
+[2017-07-11 17:00:40]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="222" 操作失败
+[2017-07-11 17:00:40]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2017-07-11 17:01:14]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2017-07-11 17:01:14]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "0be64f0b6faed1e32553638db9c1bf29",
+    "user": "222"
+}
+
+[2017-07-11 17:01:14]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2017-07-11 17:01:14]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2017-07-11 17:01:14]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "0be64f0b6faed1e32553638db9c1bf29",
+    "user": "222"
+}
+
+[2017-07-11 17:01:14]--[src_cgi/myfiles_cgi.c:548]--user = 222, token = 0be64f0b6faed1e32553638db9c1bf29, start = 0, count = 1
+[2017-07-11 17:01:14]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = '222' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2017-07-11 17:01:14]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"222",
+			"md5":	"e7793fd935f9e8f04c5c9e7a59660ec0",
+			"time":	"2017-07-11 17:01:10",
+			"filename":	"系统架构图.pdf",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.1.22:80/group1/M00/00/00/wKgBFlllZsaALjFfAANFX_2DzMI833.pdf",
+			"size":	214367,
+			"type":	"pdf"
+		}]
+}
+[2017-07-11 17:01:29]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2017-07-11 17:01:29]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "0be64f0b6faed1e32553638db9c1bf29",
+    "user": "222"
+}
+
+[2017-07-11 17:01:29]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2017-07-11 17:01:29]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2017-07-11 17:01:29]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "0be64f0b6faed1e32553638db9c1bf29",
+    "user": "222"
+}
+
+[2017-07-11 17:01:29]--[src_cgi/myfiles_cgi.c:548]--user = 222, token = 0be64f0b6faed1e32553638db9c1bf29, start = 0, count = 1
+[2017-07-11 17:01:29]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = '222' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2017-07-11 17:01:29]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"222",
+			"md5":	"e7793fd935f9e8f04c5c9e7a59660ec0",
+			"time":	"2017-07-11 17:01:10",
+			"filename":	"系统架构图.pdf",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.1.22:80/group1/M00/00/00/wKgBFlllZsaALjFfAANFX_2DzMI833.pdf",
+			"size":	214367,
+			"type":	"pdf"
+		}]
+}
+[2017-07-11 17:01:31]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2017-07-11 17:01:31]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "0be64f0b6faed1e32553638db9c1bf29",
+    "user": "222"
+}
+
+[2017-07-11 17:01:31]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2017-07-11 17:01:31]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2017-07-11 17:01:31]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "0be64f0b6faed1e32553638db9c1bf29",
+    "user": "222"
+}
+
+[2017-07-11 17:01:31]--[src_cgi/myfiles_cgi.c:548]--user = 222, token = 0be64f0b6faed1e32553638db9c1bf29, start = 0, count = 1
+[2017-07-11 17:01:31]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = '222' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2017-07-11 17:01:31]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"222",
+			"md5":	"e7793fd935f9e8f04c5c9e7a59660ec0",
+			"time":	"2017-07-11 17:01:10",
+			"filename":	"系统架构图.pdf",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.1.22:80/group1/M00/00/00/wKgBFlllZsaALjFfAANFX_2DzMI833.pdf",
+			"size":	214367,
+			"type":	"pdf"
+		}]
+}
+[2017-07-11 17:08:25]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2017-07-11 17:08:25]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "543ceca993216f9896a3bdf68e617046",
+    "user": "222"
+}
+
+[2017-07-11 17:08:25]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2017-07-11 17:08:25]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2017-07-11 17:08:25]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "543ceca993216f9896a3bdf68e617046",
+    "user": "222"
+}
+
+[2017-07-11 17:08:25]--[src_cgi/myfiles_cgi.c:548]--user = 222, token = 543ceca993216f9896a3bdf68e617046, start = 0, count = 1
+[2017-07-11 17:08:25]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = '222' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2017-07-11 17:08:25]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"222",
+			"md5":	"e7793fd935f9e8f04c5c9e7a59660ec0",
+			"time":	"2017-07-11 17:01:10",
+			"filename":	"系统架构图.pdf",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.1.22:80/group1/M00/00/00/wKgBFlllZsaALjFfAANFX_2DzMI833.pdf",
+			"size":	214367,
+			"type":	"pdf"
+		}]
+}

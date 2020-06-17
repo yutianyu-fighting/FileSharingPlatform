@@ -1,0 +1,48 @@
+[2020-06-08 14:36:48]--[src_cgi/dealfile_cgi.c:42]--mysql:[user=root,pwd=123456,database=yundisk][2020-06-08 14:36:48]--[src_cgi/dealfile_cgi.c:47]--redis:[ip=127.0.0.1,port=6379]
+[2020-06-08 14:39:13]--[src_cgi/dealfile_cgi.c:695]--cmd = share
+[2020-06-08 14:39:13]--[src_cgi/dealfile_cgi.c:727]--buf = {
+    "filename": "1c593113487f6ef42f0f78624a3199d.jpg",
+    "md5": "fe66efd7c462faabcd1d298bc0f4bb46",
+    "token": "203344fc1049aed9089701a7167a6cb1",
+    "user": "tianyu"
+}
+
+[2020-06-08 14:39:13]--[src_cgi/dealfile_cgi.c:730]--user = tianyu, token = 203344fc1049aed9089701a7167a6cb1, md5 = fe66efd7c462faabcd1d298bc0f4bb46, filename = 1c593113487f6ef42f0f78624a3199d.jpg
+[2020-06-08 14:42:30]--[src_cgi/dealfile_cgi.c:695]--cmd = share
+[2020-06-08 14:42:30]--[src_cgi/dealfile_cgi.c:727]--buf = {
+    "filename": "ui_buttongroup.h",
+    "md5": "7526fcead4ef24036b5845f9b9e9ef9d",
+    "token": "86512f9761c22512dd905927471df4b0",
+    "user": "tianyu"
+}
+
+[2020-06-08 14:42:30]--[src_cgi/dealfile_cgi.c:730]--user = tianyu, token = 86512f9761c22512dd905927471df4b0, md5 = 7526fcead4ef24036b5845f9b9e9ef9d, filename = ui_buttongroup.h
+[2020-06-08 14:42:36]--[src_cgi/dealfile_cgi.c:695]--cmd = del
+[2020-06-08 14:42:36]--[src_cgi/dealfile_cgi.c:727]--buf = {
+    "filename": "1c593113487f6ef42f0f78624a3199d.jpg",
+    "md5": "fe66efd7c462faabcd1d298bc0f4bb46",
+    "token": "86512f9761c22512dd905927471df4b0",
+    "user": "tianyu"
+}
+
+[2020-06-08 14:42:36]--[src_cgi/dealfile_cgi.c:730]--user = tianyu, token = 86512f9761c22512dd905927471df4b0, md5 = fe66efd7c462faabcd1d298bc0f4bb46, filename = 1c593113487f6ef42f0f78624a3199d.jpg
+[2020-06-08 14:42:36]--[src_cgi/dealfile_cgi.c:329]--remove_file_from_storage ret = 0
+[2020-06-08 14:46:01]--[src_cgi/dealfile_cgi.c:695]--cmd = share
+[2020-06-08 14:46:01]--[src_cgi/dealfile_cgi.c:727]--buf = {
+    "filename": "title_close.png",
+    "md5": "a6159d77d7707c292b7a1c8b9fc7fe55",
+    "token": "652f6cf348bc9ed47ea5ef3c9f97c186",
+    "user": "yutianyu"
+}
+
+[2020-06-08 14:46:01]--[src_cgi/dealfile_cgi.c:730]--user = yutianyu, token = 652f6cf348bc9ed47ea5ef3c9f97c186, md5 = a6159d77d7707c292b7a1c8b9fc7fe55, filename = title_close.png
+[2020-06-08 14:46:04]--[src_cgi/dealfile_cgi.c:695]--cmd = share
+[2020-06-08 14:46:04]--[src_cgi/dealfile_cgi.c:727]--buf = {
+    "filename": "tile_file.png",
+    "md5": "1f3fd001e64d37e63f36273b44e6a5f5",
+    "token": "652f6cf348bc9ed47ea5ef3c9f97c186",
+    "user": "yutianyu"
+}
+
+[2020-06-08 14:46:04]--[src_cgi/dealfile_cgi.c:730]--user = yutianyu, token = 652f6cf348bc9ed47ea5ef3c9f97c186, md5 = 1f3fd001e64d37e63f36273b44e6a5f5, filename = tile_file.png
+[2020-06-08 16:13:33]--[src_cgi/dealfile_cgi.c:42]--mysql:[user=root,pwd=123456,database=yundisk][2020-06-08 16:13:33]--[src_cgi/dealfile_cgi.c:47]--redis:[ip=127.0.0.1,port=6379]

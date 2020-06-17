@@ -1,0 +1,292 @@
+[2020-06-05 18:59:29]--[src_cgi/sharefiles_cgi.c:42]--mysql:[user=root,pwd=123456,database=yundisk][2020-06-05 18:59:29]--[src_cgi/sharefiles_cgi.c:47]--redis:[ip=127.0.0.1,port=6379]
+[2020-06-05 19:06:07]--[src_cgi/sharefiles_cgi.c:42]--mysql:[user=root,pwd=123456,database=yundisk][2020-06-05 19:06:07]--[src_cgi/sharefiles_cgi.c:47]--redis:[ip=127.0.0.1,port=6379]
+[2020-06-05 19:06:39]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-05 19:06:39]--[src_cgi/sharefiles_cgi.c:85]--line = 2
+[2020-06-05 19:06:39]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-06-05 19:06:39]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 2,
+    "start": 0
+}
+
+[2020-06-05 19:06:39]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 2
+[2020-06-05 19:06:39]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 2 在操作
+[2020-06-05 19:06:39]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"yutianyu",
+			"md5":	"1752983da17f70758d1026415797da8c",
+			"time":	"2020-05-16 16:53:42",
+			"filename":	"echo.c",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.142.228:80/group1/M00/00/00/wKiO5F6_qb-AByvLAAAHT7NSqm066237.c",
+			"size":	1871,
+			"type":	"c"
+		}, {
+			"user":	"yutianyu",
+			"md5":	"1f3fd001e64d37e63f36273b44e6a5f5",
+			"time":	"2020-05-18 17:25:20",
+			"filename":	"tile_file.png",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.142.228:80/group1/M00/00/00/wKiO5F7CVGeAOtXKAAArifLG8T8007.png",
+			"size":	11145,
+			"type":	"png"
+		}]
+}
+[2020-06-05 19:06:40]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-05 19:06:40]--[src_cgi/sharefiles_cgi.c:85]--line = 2
+[2020-06-05 19:06:40]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-06-05 19:06:40]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 2,
+    "start": 0
+}
+
+[2020-06-05 19:06:40]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 2
+[2020-06-05 19:06:40]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 2, redis_num = 3
+[2020-06-05 19:06:40]--[src_cgi/sharefiles_cgi.c:413]--select md5, filename, pv from share_file_list order by pv desc 在操作
+[2020-06-05 19:06:40]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"echo.c",
+			"pv":	1
+		}, {
+			"filename":	"tile_hot.png",
+			"pv":	0
+		}]
+}
+[2020-06-05 19:07:22]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-05 19:07:22]--[src_cgi/sharefiles_cgi.c:85]--line = 2
+[2020-06-05 19:07:22]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-06-05 19:07:22]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 2,
+    "start": 0
+}
+
+[2020-06-05 19:07:22]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 2
+[2020-06-05 19:07:22]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 2 在操作
+[2020-06-05 19:07:22]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"yutianyu",
+			"md5":	"1752983da17f70758d1026415797da8c",
+			"time":	"2020-05-16 16:53:42",
+			"filename":	"echo.c",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.142.228:80/group1/M00/00/00/wKiO5F6_qb-AByvLAAAHT7NSqm066237.c",
+			"size":	1871,
+			"type":	"c"
+		}, {
+			"user":	"yutianyu",
+			"md5":	"1f3fd001e64d37e63f36273b44e6a5f5",
+			"time":	"2020-05-18 17:25:20",
+			"filename":	"tile_file.png",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.142.228:80/group1/M00/00/00/wKiO5F7CVGeAOtXKAAArifLG8T8007.png",
+			"size":	11145,
+			"type":	"png"
+		}]
+}
+[2020-06-05 19:07:28]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-05 19:07:28]--[src_cgi/sharefiles_cgi.c:85]--line = 2
+[2020-06-05 19:07:28]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-06-05 19:07:28]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 2,
+    "start": 0
+}
+
+[2020-06-05 19:07:28]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 2
+[2020-06-05 19:07:28]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 2, redis_num = 3
+[2020-06-05 19:07:28]--[src_cgi/sharefiles_cgi.c:413]--select md5, filename, pv from share_file_list order by pv desc 在操作
+[2020-06-05 19:07:28]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"echo.c",
+			"pv":	1
+		}, {
+			"filename":	"tile_hot.png",
+			"pv":	0
+		}]
+}
+[2020-06-05 19:08:00]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-05 19:08:00]--[src_cgi/sharefiles_cgi.c:85]--line = 2
+[2020-06-05 19:08:00]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-06-05 19:08:00]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 2,
+    "start": 0
+}
+
+[2020-06-05 19:08:00]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 2
+[2020-06-05 19:08:00]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 2, redis_num = 3
+[2020-06-05 19:08:00]--[src_cgi/sharefiles_cgi.c:413]--select md5, filename, pv from share_file_list order by pv desc 在操作
+[2020-06-05 19:08:00]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"echo.c",
+			"pv":	1
+		}, {
+			"filename":	"tile_hot.png",
+			"pv":	0
+		}]
+}
+[2020-06-05 19:08:01]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-05 19:08:01]--[src_cgi/sharefiles_cgi.c:85]--line = 2
+[2020-06-05 19:08:01]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-06-05 19:08:01]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 2,
+    "start": 0
+}
+
+[2020-06-05 19:08:01]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 2
+[2020-06-05 19:08:01]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 2 在操作
+[2020-06-05 19:08:01]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"yutianyu",
+			"md5":	"1752983da17f70758d1026415797da8c",
+			"time":	"2020-05-16 16:53:42",
+			"filename":	"echo.c",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.142.228:80/group1/M00/00/00/wKiO5F6_qb-AByvLAAAHT7NSqm066237.c",
+			"size":	1871,
+			"type":	"c"
+		}, {
+			"user":	"yutianyu",
+			"md5":	"1f3fd001e64d37e63f36273b44e6a5f5",
+			"time":	"2020-05-18 17:25:20",
+			"filename":	"tile_file.png",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.142.228:80/group1/M00/00/00/wKiO5F7CVGeAOtXKAAArifLG8T8007.png",
+			"size":	11145,
+			"type":	"png"
+		}]
+}
+[2020-06-05 19:08:03]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-05 19:08:03]--[src_cgi/sharefiles_cgi.c:85]--line = 2
+[2020-06-05 19:08:03]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-06-05 19:08:03]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 2,
+    "start": 0
+}
+
+[2020-06-05 19:08:03]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 2
+[2020-06-05 19:08:03]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 2 在操作
+[2020-06-05 19:08:03]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"yutianyu",
+			"md5":	"1752983da17f70758d1026415797da8c",
+			"time":	"2020-05-16 16:53:42",
+			"filename":	"echo.c",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.142.228:80/group1/M00/00/00/wKiO5F6_qb-AByvLAAAHT7NSqm066237.c",
+			"size":	1871,
+			"type":	"c"
+		}, {
+			"user":	"yutianyu",
+			"md5":	"1f3fd001e64d37e63f36273b44e6a5f5",
+			"time":	"2020-05-18 17:25:20",
+			"filename":	"tile_file.png",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.142.228:80/group1/M00/00/00/wKiO5F7CVGeAOtXKAAArifLG8T8007.png",
+			"size":	11145,
+			"type":	"png"
+		}]
+}
+[2020-06-05 19:08:34]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-05 19:08:34]--[src_cgi/sharefiles_cgi.c:85]--line = 0
+[2020-06-05 19:08:35]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-05 19:08:35]--[src_cgi/sharefiles_cgi.c:85]--line = 0
+[2020-06-05 19:13:58]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-05 19:13:58]--[src_cgi/sharefiles_cgi.c:85]--line = 0
+[2020-06-05 19:13:59]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-05 19:13:59]--[src_cgi/sharefiles_cgi.c:85]--line = 0
+[2020-06-05 19:29:12]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-05 19:29:12]--[src_cgi/sharefiles_cgi.c:85]--line = 0
+[2020-06-05 19:29:53]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-05 19:29:53]--[src_cgi/sharefiles_cgi.c:85]--line = 0
+[2020-06-05 19:29:53]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-05 19:29:53]--[src_cgi/sharefiles_cgi.c:85]--line = 0
+[2020-06-05 19:35:07]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-05 19:35:07]--[src_cgi/sharefiles_cgi.c:85]--line = 0
+[2020-06-05 19:35:08]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-05 19:35:08]--[src_cgi/sharefiles_cgi.c:85]--line = 0
+[2020-06-05 19:35:09]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-05 19:35:09]--[src_cgi/sharefiles_cgi.c:85]--line = 0
+[2020-06-05 20:35:16]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-05 20:35:16]--[src_cgi/sharefiles_cgi.c:85]--line = 0
+[2020-06-05 20:35:16]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-05 20:35:16]--[src_cgi/sharefiles_cgi.c:85]--line = 0
+[2020-06-05 20:35:31]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-05 20:35:31]--[src_cgi/sharefiles_cgi.c:85]--line = 0
+[2020-06-05 20:35:32]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-05 20:35:32]--[src_cgi/sharefiles_cgi.c:85]--line = 0
+[2020-06-05 20:36:26]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-05 20:36:26]--[src_cgi/sharefiles_cgi.c:85]--line = 0
+[2020-06-05 20:36:27]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-05 20:36:27]--[src_cgi/sharefiles_cgi.c:85]--line = 0
+[2020-06-05 20:37:08]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-05 20:37:08]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-06-05 20:37:08]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-06-05 20:37:08]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-06-05 20:37:08]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-06-05 20:37:08]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2020-06-05 20:37:08]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"yutianyu",
+			"md5":	"1f3fd001e64d37e63f36273b44e6a5f5",
+			"time":	"2020-05-18 17:25:20",
+			"filename":	"tile_file.png",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.142.228:80/group1/M00/00/00/wKiO5F7CVGeAOtXKAAArifLG8T8007.png",
+			"size":	11145,
+			"type":	"png"
+		}]
+}
+[2020-06-05 20:37:18]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-05 20:37:18]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-06-05 20:37:18]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-06-05 20:37:18]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-06-05 20:37:18]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-06-05 20:37:18]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2020-06-05 20:37:18]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"yutianyu",
+			"md5":	"1f3fd001e64d37e63f36273b44e6a5f5",
+			"time":	"2020-05-18 17:25:20",
+			"filename":	"tile_file.png",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.142.228:80/group1/M00/00/00/wKiO5F7CVGeAOtXKAAArifLG8T8007.png",
+			"size":	11145,
+			"type":	"png"
+		}]
+}
+[2020-06-05 20:37:30]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-05 20:37:30]--[src_cgi/sharefiles_cgi.c:85]--line = 0
+[2020-06-05 20:37:31]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-05 20:37:31]--[src_cgi/sharefiles_cgi.c:85]--line = 0
+[2020-06-05 20:37:33]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-05 20:37:33]--[src_cgi/sharefiles_cgi.c:85]--line = 0
+[2020-06-05 20:37:34]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-05 20:37:34]--[src_cgi/sharefiles_cgi.c:85]--line = 0
+[2020-06-05 20:37:36]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-05 20:37:36]--[src_cgi/sharefiles_cgi.c:85]--line = 0
+[2020-06-05 20:37:37]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-05 20:37:37]--[src_cgi/sharefiles_cgi.c:85]--line = 0
+[2020-06-05 20:37:39]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-05 20:37:39]--[src_cgi/sharefiles_cgi.c:85]--line = 0
+[2020-06-05 20:37:39]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-05 20:37:39]--[src_cgi/sharefiles_cgi.c:85]--line = 0
+[2020-06-05 20:53:53]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-05 20:53:53]--[src_cgi/sharefiles_cgi.c:85]--line = 0
+[2020-06-05 20:53:54]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-06-05 20:53:54]--[src_cgi/sharefiles_cgi.c:85]--line = 0
